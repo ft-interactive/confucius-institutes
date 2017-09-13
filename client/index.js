@@ -1,5 +1,29 @@
 import './styles.scss';
 
+import * as d3 from 'd3';
+
+var margin = {top:20, right:50, bottom:0, left:50};
+
+// calculate width and height of svg based on window size
+var divWidth = d3.select(".confucius-graphic").node().getBoundingClientRect().width;
+var width = Math.max(Math.min(divWidth, 980), 490) - margin.left - margin.right;
+var height = Math.round(Math.max(Math.min(divWidth, 980), 490)*0.55) - margin.top - margin.bottom;
+
+
+var histHeight = height/5;
+
+var svg = d3.select(".locations-map")
+    .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom);
+
+svg.append("rect")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .attr("fill", "lightgrey");
+
+
+
 /*
   TODO: delete this comment
 
