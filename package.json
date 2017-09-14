@@ -81,6 +81,7 @@
     "start": "webpack-dev-server --watch"
   },
   "dependencies": {
-    "d3": "^4.10.2"
+    "d3": "^4.10.2",
+    "d3-geo-projection": "^2.3.1"
   }
 }
