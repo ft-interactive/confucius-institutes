@@ -5,8 +5,9 @@ import { geoNaturalEarth2 } from 'd3-geo-projection'
 import rawdata from './data/confucius_locations.csv';
 import geodata from './data/world_countries.json';
 
+////////// SETUP //////////
 
-var margin = {top:20, right:50, bottom:0, left:50};
+var margin = {top:20, right:40, bottom:0, left:40};
 
 // calculate width and height of svg based on window size
 var divWidth = d3.select(".confucius-graphic").node().getBoundingClientRect().width;
@@ -71,7 +72,8 @@ var svg = d3.select(".locations-map")
     .attr("height", height + margin.top + margin.bottom);
 
 
-// draw histogram
+////////// HISTOGRAM //////////
+
 var hist = svg.append("g")
     .attr("class", "hist")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
@@ -101,7 +103,9 @@ bar.append("text")
     .text(function(d) { if (d.length>15) { return d.length; } })
     .style("fill", "white");
 
-// draw map
+
+////////// MAP //////////
+
 var projection = geoNaturalEarth2()
   .scale([width*0.2])
   .translate([width/2, height/2 + height*0.25]);
@@ -127,6 +131,9 @@ svg.append("g")
       .style("fill", "#d0d7cc")
       .style("opacity", 0.7)
       .style("stroke", "white")
+
+
+////////// CENTRE LOCATIONS //////////
 
 // draw all centre locations upon load
 drawLocations(data);
@@ -156,6 +163,13 @@ function drawLocations(data) {
       .attr("r", 3)
 }
 
+
+////////// SLIDER //////////
+
+////////// COUNTER //////////
+
+
+////////// UPDATE FUNCTION //////////
 
 /*
   TODO: delete this comment

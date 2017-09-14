@@ -80,5 +80,7 @@
     "qa": "mocha ./test/**/*.spec.js",
     "start": "webpack-dev-server --watch"
   },
-  "dependencies": {}
+  "dependencies": {
+    "d3": "^4.10.2"
+  }
 }
