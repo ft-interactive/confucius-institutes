@@ -1,6 +1,10 @@
 import './styles.scss';
-
 import * as d3 from 'd3';
+import { geoNaturalEarth2 } from 'd3-geo-projection'
+
+import rawdata from './data/confucius_locations.csv';
+import geodata from './data/world_countries.json';
+
 
 var margin = {top:20, right:50, bottom:0, left:50};
 
@@ -9,19 +13,148 @@ var divWidth = d3.select(".confucius-graphic").node().getBoundingClientRect().wi
 var width = Math.max(Math.min(divWidth, 980), 490) - margin.left - margin.right;
 var height = Math.round(Math.max(Math.min(divWidth, 980), 490)*0.55) - margin.top - margin.bottom;
 
-
 var histHeight = height/5;
 
+var parseDate = d3.timeParse("%d-%b-%y");
+var formatDateIntoYear = d3.timeFormat("%Y");
+
+var startDate = new Date("2004-11-01"),
+    endDate = new Date("2017-05-31");
+
+var dateArray = d3.timeYears(startDate, d3.timeYear.offset(endDate, 1));
+
+var colours = d3.scaleOrdinal()
+    .domain(dateArray)
+    .range(['#ffc388','#ffb269','#ffa15e','#fd8f5b','#f97d5a','#f26c58','#e95b56','#e04b51','#d53a4b','#c92c42','#bb1d36','#ac0f29','#9c0418','#8b0000']);
+
+// parse data
+var data = d3.csvParse(rawdata);
+
+data.forEach(function(d) {
+  d.date = parseDate(d.date);
+  d.value = +d.value;
+  return d;
+})
+
+var nullDates = data.filter(function(d) {
+  return d.date == null;
+})
+
+var dataset = data.filter(function(d) {
+  return d.date != null;
+})
+
+// x scale for time
+var x = d3.scaleTime()
+    .domain([startDate, endDate])
+    .range([0, width])
+    .clamp(true);
+
+// set parameters for histogram
+var histogram = d3.histogram()
+    .value(function(d) { return d.date; })
+    .domain(x.domain())
+    .thresholds(x.ticks(d3.timeYear));
+
+// group data for histogram bars
+var bins = histogram(data);
+
+// y scale for histogram
+var y = d3.scaleLinear()
+    .domain([0, d3.max(bins, function(d) { return d.length; })])
+    .range([histHeight, 0]);
+
+// draw svg
 var svg = d3.select(".locations-map")
     .append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom);
 
-svg.append("rect")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-    .attr("fill", "lightgrey");
 
+// draw histogram
+var hist = svg.append("g")
+    .attr("class", "hist")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var bar = hist.selectAll(".bar")
+    .data(bins)
+    .enter()
+    .append("g")
+    .attr("class", "bar")
+    .attr("transform", function(d) {
+      return "translate(" + x(d.x0) + "," + y(d.length) + ")";
+    })
+
+bar.append("rect")
+    .attr("class", "bar")
+    .attr("x", 1)
+    .attr("width", function(d) { return x(d.x1) - x(d.x0) -1; })
+    .attr("height", function(d) { return histHeight - y(d.length); })
+    .attr("fill", function(d) { return colours(d.x0); });
+
+bar.append("text")
+    .attr("class", "histLabel")
+    .attr("dy", ".75em")
+    .attr("y", "6")
+    .attr("x", function(d) { return (x(d.x1) - x(d.x0))/2; })
+    .attr("text-anchor", "middle")
+    .text(function(d) { if (d.length>15) { return d.length; } })
+    .style("fill", "white");
+
+// draw map
+var projection = geoNaturalEarth2()
+  .scale([width*0.2])
+  .translate([width/2, height/2 + height*0.25]);
+
+var path = d3.geoPath()
+  .projection(projection);
+
+var graticule = d3.geoGraticule();
+
+svg.append("g")
+    .attr("class", "graticule")
+    .append("path")
+    .datum(graticule)
+    .attr("d", path);
+
+svg.append("g")
+    .attr("class", "countries")
+    .selectAll("path")
+      .data(geodata.features)
+      .enter()
+      .append("path")
+      .attr("d", path)
+      .style("fill", "#d0d7cc")
+      .style("opacity", 0.7)
+      .style("stroke", "white")
+
+// draw all centre locations upon load
+drawLocations(data);
+
+function drawLocations(data) {
+  var locations = svg.append("g")
+      .append("g")
+      .attr("class", "locations")
+      .selectAll(".centre")
+      .data(data, function(d) { return d.id; })
+
+  // if filtered dataset has more circles than already existing, transition new ones in
+  locations.enter()
+      .append("circle")
+      .attr("class", "centre")
+      .attr("cx", function(d) { return projection([d.longitude, d.latitude])[0]; })
+      .attr("cy", function(d) { return projection([d.longitude, d.latitude])[1]; })
+      .style("fill", function(d) {
+        if (d.date == null) {
+          return "#666";
+        } else {
+          return colours(d3.timeYear(d.date));
+        }
+      })
+      .style("stroke", function(d) { return colours(d3.timeYear(d.date)); })
+      .style("opacity", 0.5)
+      .attr("r", 3)
+}
 
 
 /*
