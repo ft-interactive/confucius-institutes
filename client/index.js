@@ -215,7 +215,7 @@ slider.insert("g", ".track-overlay")
     .enter()
     .append("text")
     .attr("x", x)
-    .attr("y", 10)
+    .attr("y", 7)
     .attr("text-anchor", "middle")
     .text(function(d) { return formatDateIntoYear(d); });
 
