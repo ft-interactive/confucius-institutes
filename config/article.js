@@ -9,9 +9,9 @@ export default () => ({ // eslint-disable-line
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
-  publishedDate: new Date(),
+  publishedDate: new Date('2017-10-15T17:11:22Z'),
 
-  headline: 'Politics and the English Language',
+  headline: 'Confucius Institutes around the world',
 
   // summary === standfirst (Summary is what the content API calls it)
   summary: 'Political language is designed to make lies sound truthful' +
@@ -33,7 +33,8 @@ export default () => ({ // eslint-disable-line
     credit: '',
 
     // You can provide a UUID to an image and it was populate everything else
-    uuid: 'c4bf0be4-7c15-11e4-a7b8-00144feabdc0',
+    // uuid: 'c4bf0be4-7c15-11e4-a7b8-00144feabdc0',
+    uuid: '',
 
     // You can also provide a URL
     // url: 'https://image.webservices.ft.com/v1/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod.s3.amazonaws.com%2Fc4bf0be4-7c15-11e4-a7b8-00144feabdc0?source=ig&fit=scale-down&width=700',
@@ -42,8 +43,8 @@ export default () => ({ // eslint-disable-line
   // Byline can by a plain string, markdown, or array of authors
   // if array of authors, url is optional
   byline: [
-    { name: 'Author One', url: '/foo/bar' },
-    { name: 'Author Two' },
+    { name: 'Jane Pong', url: 'https://www.ft.com/jane-pong' },
+    { name: 'Emily Feng', url: 'https://www.ft.com/stream/3b7aef75-5d4f-3873-b156-8644e8eab910' },
   ],
 
   // Appears in the HTML <title>
