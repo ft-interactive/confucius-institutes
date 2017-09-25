@@ -14,7 +14,7 @@ export default () => ({ // eslint-disable-line
   headline: 'Confucius Institutes around the world',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'Since the establishment of the first Confucius Institute in 2004, the number of Institutes around the world has grown to 500 in 2017 spreading over 126 countries.'
+  summary: 'Since the establishment of the first Confucius Institute in 2004, the number of Institutes around the world has grown to 500 in 2017 spreading over 126 countries.',
 
   topic: {
     name: 'China soft power',
