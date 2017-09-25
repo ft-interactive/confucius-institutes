@@ -14,18 +14,17 @@ export default () => ({ // eslint-disable-line
   headline: 'Confucius Institutes around the world',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'Political language is designed to make lies sound truthful' +
-           'and murder respectable, and to give an appearance of solidity to pure wind',
+  summary: 'Since the establishment of the first Confucius Institute in 2004, the number of Institutes around the world has grown to 500 in 2017 spreading over 126 countries.'
 
   topic: {
-    name: 'Starter Kit',
+    name: 'China soft power',
     url: '/foo',
   },
 
-  relatedArticle: {
-    text: 'Related article »',
-    url: 'https://en.wikipedia.org/wiki/Politics_and_the_English_Language',
-  },
+  // relatedArticle: {
+  //   text: 'Related article »',
+  //   url: 'https://en.wikipedia.org/wiki/Politics_and_the_English_Language',
+  // },
 
   mainImage: {
     title: '',
@@ -44,7 +43,7 @@ export default () => ({ // eslint-disable-line
   // if array of authors, url is optional
   byline: [
     { name: 'Jane Pong', url: 'https://www.ft.com/jane-pong' },
-    { name: 'Emily Feng', url: 'https://www.ft.com/stream/3b7aef75-5d4f-3873-b156-8644e8eab910' },
+    { name: 'XXX', url: 'https://www.ft.com/stream/3b7aef75-5d4f-3873-b156-8644e8eab910' },
   ],
 
   // Appears in the HTML <title>
