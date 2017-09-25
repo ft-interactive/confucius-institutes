@@ -20,8 +20,8 @@ var margin = {
   bottom: 0, 
   left: divWidth / 20
 };
-var width = Math.max(Math.min(divWidth, 980), 350) - margin.left - margin.right;
-var height = Math.round(Math.max(Math.min(divWidth, 980), 490)*0.55) - margin.top - margin.bottom;
+var width = Math.max(Math.min(divWidth, 1220), 240) - margin.left - margin.right;
+var height = Math.round(Math.max(Math.min(divWidth, 1220), 240)*0.55) - margin.top - margin.bottom;
 
 var histHeight = height/5;
 
@@ -116,8 +116,8 @@ bar.append("text")
 ////////// BASE MAP //////////
 
 var projection = geoNaturalEarth2()
-  .scale([width*0.2])
-  .translate([width/2, height/2 + height*0.25]);
+  .scale([width*0.19])
+  .translate([width/2, height/2 + height*0.23]);
 
 var path = d3.geoPath()
   .projection(projection);
@@ -172,9 +172,20 @@ function drawLocations(data) {
           return colours(d3.timeYear(d.date));
         }
       })
-      .style("stroke", function(d) { return colours(d3.timeYear(d.date)); })
+      .style("stroke", function(d) { 
+        if (d.date == null) {
+          return "#666";
+        } else {
+          return colours(d3.timeYear(d.date));
+        }
+      })
       .style("opacity", 0.5)
-      .attr("r", 3);
+      .attr("r", 3)
+        .transition()
+        .duration(300)
+        .attr("r", 5)
+          .transition()
+          .attr("r", 3);
 
   // if filtered dataset has less circles than already existing, remove excess
   locations.exit()

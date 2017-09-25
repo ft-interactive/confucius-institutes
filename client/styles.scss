@@ -86,3 +86,34 @@
   fill: #cd5c5c;
   opacity: 0.8;
 }
+
+.responsive-graphic__smallmults {
+  img {
+    width: 100%;
+  }
+
+
+  &--m, &--l {
+    display: none;
+  }
+
+  @include oGridRespondTo(M) {
+    &--m {
+      display: block;
+    }
+
+    &--s, &--l {
+      display: none;
+    }
+  }
+
+  @include oGridRespondTo(L) {
+    &--l {
+      display: block;
+    }
+
+    &--s, &--m {
+      display: none;
+    }
+  }
+}
