@@ -24,6 +24,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "babel-register": "^6.24.1",
+    "bertha-client": "^4.0.1",
     "bower": "^1.8.0",
     "chai": "^4.1.0",
     "copy-webpack-plugin": "^4.0.1",
@@ -82,6 +83,7 @@
   },
   "dependencies": {
     "d3": "^4.10.2",
-    "d3-geo-projection": "^2.3.1"
+    "d3-geo-projection": "^2.3.1",
+    "bertha-client": "^4.0.1"
   }
 }
