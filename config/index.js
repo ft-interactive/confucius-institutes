@@ -3,10 +3,10 @@ import article from './article';
 import getFlags from './flags';
 import getOnwardJourney from './onward-journey';
 
-export default async () => {
-  const d = await article();
-  const flags = await getFlags();
-  const onwardJourney = await getOnwardJourney();
+export default async (environment = 'development') => {
+  const d = await article(environment);
+  const flags = await getFlags(environment);
+  const onwardJourney = await getOnwardJourney(environment);
 
   const data = await bertha.get('19Dnw6VgajykG_R19FBw-JdmtrZJ-wehaq97lYkLYFo0', ['text|object'], {republish: true}).then((data) => {
     return data.text;
