@@ -25,8 +25,12 @@
   padding: 0.5em;
   border-style: solid;
   border-radius: 0.2em;
-  border-color: #f08080;
-  background-color: #fff1e5;
+  border-color: #d0d7cc;
+  background-color: #d0d7cc;
+
+  @include oGridRespondTo($until: M) {
+    margin-left: auto;
+  }
 }
 
 .locations-map svg {
@@ -44,6 +48,12 @@
 /* slider */
 .ticks {
   font-size: 0.75em;
+
+  @include oGridRespondTo($until: M) {
+    text:not(:first-child):not(:last-child) {
+      display: none;
+    }
+  }
 }
 
 .track,
@@ -76,9 +86,21 @@
   stroke-width: 1.25px;
 }
 
+.histLabel {
+  font-size: 0.7em;
+
+  @include oGridRespondTo(M) {
+    font-size: 1em;
+  }
+}
+
 /* counter */
 .counter {
-  font-size: 1em;
+  font-size: 0.85em;
+  
+  @include oGridRespondTo(M) {
+    font-size: 1em;
+  }
 }
 
 .counter .number {
@@ -91,7 +113,6 @@
   img {
     width: 100%;
   }
-
 
   &--m, &--l {
     display: none;

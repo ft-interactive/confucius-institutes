@@ -249,7 +249,7 @@ playButton
     if(button.text() == "Pause animation") {
       moving = false;
       clearInterval(timer);
-      button.text("Play animation");
+      button.text("\u25B6 Play animation");
     } else {
       moving = true;
       timer = setInterval(step, 100);
@@ -268,11 +268,13 @@ var counter = svg.append("g")
 var num = counter.append("text")
     .attr("class", "number")
     .attr("text-anchor", "middle")
+    .attr("alignment-baseline", "baseline")
     .text("500");
 
 counter.append("text")
-    .attr("transform", "translate(0, 25)")
+    .attr("transform", "translate(0, 20)")
     .attr("text-anchor", "middle")
+    .attr("alignment-baseline", "baseline")
     .text("locations");
 
 
@@ -317,7 +319,7 @@ function step() {
     moving = false;
     currentValue = 0;
     clearInterval(timer);
-    playButton.text("Play animation");
+    playButton.text("\u25B6 Play animation");
     console.log("Slider moving: " + moving);
   }
 }
