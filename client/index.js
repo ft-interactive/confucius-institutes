@@ -12,56 +12,56 @@ import geodata from './data/world_countries.json';
 ////////// SETUP //////////
 
 // calculate width and height of svg based on window size
-var divWidth = d3.select(".confucius-graphic").node().getBoundingClientRect().width;
+let divWidth = d3.select(".confucius-graphic").node().getBoundingClientRect().width;
 
-var margin = {
+let margin = {
   top: 20, 
   right: divWidth / 20, 
   bottom: 0, 
   left: divWidth / 20
 };
-var width = Math.max(Math.min(divWidth, 1220), 240) - margin.left - margin.right;
-var height = Math.round(Math.max(Math.min(divWidth, 1220), 240)*0.55) - margin.top - margin.bottom;
+let width = Math.max(Math.min(divWidth, 1220), 240) - margin.left - margin.right;
+let height = Math.round(Math.max(Math.min(divWidth, 1220), 240)*0.55) - margin.top - margin.bottom;
 
-var histHeight = height/5;
+let histHeight = height/5;
 
-var parseDate = d3.timeParse("%d-%b-%y");
-var formatDateIntoYear = d3.timeFormat("%Y");
+let parseDate = d3.timeParse("%d-%b-%y");
+let formatDateIntoYear = d3.timeFormat("%Y");
 
-var startDate = new Date("2004-11-01"),
+const startDate = new Date("2004-11-01"),
     endDate = new Date("2017-05-31");
 
-var dateArray = d3.timeYears(startDate, d3.timeYear.offset(endDate, 1));
+const dateArray = d3.timeYears(startDate, d3.timeYear.offset(endDate, 1));
 
-var colours = d3.scaleOrdinal()
+const colours = d3.scaleOrdinal()
     .domain(dateArray)
     .range(['#ffc388','#ffb269','#ffa15e','#fd8f5b','#f97d5a','#f26c58','#e95b56','#e04b51','#d53a4b','#c92c42','#bb1d36','#ac0f29','#9c0418','#8b0000']);
 
 // parse data
-var data = d3.csvParse(rawdata);
+let data = d3.csvParse(rawdata);
 
-data.forEach(function(d) {
+data.forEach(d => {
   d.date = parseDate(d.date);
   d.value = +d.value;
   return d;
 })
 
-var nullDates = data.filter(function(d) {
+let nullDates = data.filter(d => {
   return d.date == null;
 })
 
-var dataset = data.filter(function(d) {
+let dataset = data.filter(d => {
   return d.date != null;
 })
 
 // x scale for time
-var x = d3.scaleTime()
+let x = d3.scaleTime()
     .domain([startDate, endDate])
     .range([0, width])
     .clamp(true);
 
 // draw svg
-var svg = d3.select(".locations-map")
+let svg = d3.select(".locations-map")
     .append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom);
@@ -70,61 +70,61 @@ var svg = d3.select(".locations-map")
 ////////// HISTOGRAM //////////
 
 // set parameters for histogram
-var histogram = d3.histogram()
-    .value(function(d) { return d.date; })
+let histogram = d3.histogram()
+    .value((d) => { return d.date; })
     .domain(x.domain())
     .thresholds(x.ticks(d3.timeYear));
 
 // group data for histogram bars
-var bins = histogram(data);
+let bins = histogram(data);
 
 // y scale for histogram
-var y = d3.scaleLinear()
-    .domain([0, d3.max(bins, function(d) { return d.length; })])
+let y = d3.scaleLinear()
+    .domain([0, d3.max(bins, (d) => { return d.length; })])
     .range([histHeight, 0]);
 
-var hist = svg.append("g")
+let hist = svg.append("g")
     .attr("class", "hist")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-var bar = hist.selectAll(".bar")
+let bar = hist.selectAll(".bar")
     .data(bins)
     .enter()
     .append("g")
     .attr("class", "bar")
-    .attr("transform", function(d) {
+    .attr("transform", (d) => {
       return "translate(" + x(d.x0) + "," + y(d.length) + ")";
     })
 
 bar.append("rect")
     .attr("class", "bar")
     .attr("x", 1)
-    .attr("width", function(d) { return x(d.x1) - x(d.x0) -1; })
-    .attr("height", function(d) { return histHeight - y(d.length); })
-    .attr("fill", function(d) { return colours(d.x0); });
+    .attr("width", (d) => { return x(d.x1) - x(d.x0) -1; })
+    .attr("height", (d) => { return histHeight - y(d.length); })
+    .attr("fill", (d) => { return colours(d.x0); });
 
 bar.append("text")
     .attr("class", "histLabel")
     .attr("dy", ".75em")
     .attr("y", "6")
-    .attr("x", function(d) { return (x(d.x1) - x(d.x0))/2; })
+    .attr("x", (d) => { return (x(d.x1) - x(d.x0))/2; })
     .attr("text-anchor", "middle")
-    .text(function(d) { if (d.length>15) { return d.length; } })
+    .text((d) => { if (d.length>15) { return d.length; } })
     .style("fill", "white");
 
 
 ////////// BASE MAP //////////
 
-var projection = geoNaturalEarth2()
+let projection = geoNaturalEarth2()
   .scale([width*0.19])
   .translate([width/2, height/2 + height*0.23]);
 
-var path = d3.geoPath()
+let path = d3.geoPath()
   .projection(projection);
 
-var graticule = d3.geoGraticule();
+let graticule = d3.geoGraticule();
 
-var map = svg.append("g")
+let map = svg.append("g")
     .attr("class", "map")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -148,7 +148,7 @@ map.append("g")
 
 ////////// CENTRE LOCATIONS //////////
 
-var centres = svg.append("g")
+let centres = svg.append("g")
     .attr("class", "centre-locations")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -156,23 +156,23 @@ var centres = svg.append("g")
 drawLocations(data);
 
 function drawLocations(data) {
-  var locations = centres.selectAll(".centre")
-      .data(data, function(d) { return d.id; });
+  let locations = centres.selectAll(".centre")
+      .data(data, (d) => { return d.id; });
 
   // if filtered dataset has more circles than already existing, transition new ones in
   locations.enter()
       .append("circle")
       .attr("class", "centre")
-      .attr("cx", function(d) { return projection([d.longitude, d.latitude])[0]; })
-      .attr("cy", function(d) { return projection([d.longitude, d.latitude])[1]; })
-      .style("fill", function(d) {
+      .attr("cx", (d) => { return projection([d.longitude, d.latitude])[0]; })
+      .attr("cy", (d) => { return projection([d.longitude, d.latitude])[1]; })
+      .style("fill", (d) => {
         if (d.date == null) {
           return "#666";
         } else {
           return colours(d3.timeYear(d.date));
         }
       })
-      .style("stroke", function(d) { 
+      .style("stroke", (d) => { 
         if (d.date == null) {
           return "#666";
         } else {
@@ -195,10 +195,10 @@ function drawLocations(data) {
 
 ////////// SLIDER //////////
 
-var currentValue = 0;
-var targetValue = width;
+let currentValue = 0;
+let targetValue = width;
 
-var slider = svg.append("g")
+let slider = svg.append("g")
     .attr("class", "slider")
     .attr("transform", "translate(" + margin.left + "," + (margin.top+histHeight+5) +")");
 
@@ -211,8 +211,8 @@ slider.append("line")
   .select(function() { return this.parentNode.appendChild(this.cloneNode(true)); })
     .attr("class", "track-overlay")
     .call(d3.drag()
-        .on("start.interrupt", function() { slider.interrupt(); })
-        .on("start drag", function() {
+        .on("start.interrupt", () => { slider.interrupt(); })
+        .on("start drag", () => {
           currentValue = d3.event.x;
           update(x.invert(currentValue)); 
         })
@@ -228,23 +228,23 @@ slider.insert("g", ".track-overlay")
     .attr("x", x)
     .attr("y", 7)
     .attr("text-anchor", "middle")
-    .text(function(d) { return formatDateIntoYear(d); });
+    .text(d => { return formatDateIntoYear(d); });
 
-var handle = slider.insert("circle", ".track-overlay")
+let handle = slider.insert("circle", ".track-overlay")
     .attr("class", "handle")
     .attr("r", 9);
 
 
 ////////// PLAY ANIMATION BUTTON //////////
 
-var timer;
-var moving = false;
+let timer;
+let moving = false;
 
-var playButton = d3.select(".play-button");
+let playButton = d3.select(".play-button");
 
 playButton
   .on("click", function() {
-    var button = d3.select(this);
+    let button = d3.select(this);
 
     if(button.text() == "Pause animation") {
       moving = false;
@@ -261,11 +261,11 @@ playButton
 
 ////////// COUNTER //////////
 
-var counter = svg.append("g")
+let counter = svg.append("g")
     .attr("class", "counter")
     .attr("transform", "translate(" + width/10 + "," + (height-20) + ")");
 
-var num = counter.append("text")
+let num = counter.append("text")
     .attr("class", "number")
     .attr("text-anchor", "middle")
     .attr("alignment-baseline", "baseline")
@@ -285,7 +285,7 @@ function update(h) {
   handle.attr("cx", x(h));
 
   // filter data set and redraw plot
-  var newData = dataset.filter(function(d) {
+  var newData = dataset.filter(d => {
     return d.date < h;
   })
 
@@ -298,7 +298,7 @@ function update(h) {
 
   // histogram bar colours
   d3.selectAll(".bar")
-    .attr("fill", function(d) {
+    .attr("fill", d => {
       if (d.x0 < h) {
         return colours(d.x0);
       } else {
