@@ -1,501 +1,501 @@
-id,location,latitude,longitude,date
-1,University of Bahrain,26.056503,50.508898,15-Apr-14
-2,Kabul University,34.519137,69.136305,01-Mar-08
-3,"Yerevan Brusov State University of Languages and Social Sciences, Armenia",40.187134,44.511243,25-Feb-09
-4,"National University of Modern Languages, Pakistan",33.666544,73.051578,09-Apr-07
-5,"University of Karachi, Pakistan",24.940023,67.12093,29-Nov-13
-6,University of Agriculture Faisalabad,31.430982,73.069511,NA
-7,University of the Punjab,31.478984,74.266163,NA
-8,"Ateneo de Manila University, Philippines",14.639451,121.078092,01-Oct-06
-9,"Bulacan State University, Philippines",14.857932,120.813636,28-Feb-09
-10,"Angeles University Foundation, Philippines",15.145661,120.594802,10-Nov-09
-11,University of the Philippines,14.654557,121.064727,01-Oct-15
-12,"Woosuk University, Republic of Korea",35.912653,127.0667,01-Feb-09
-13,"Cheju Halla College, Republic of Korea",33.476694,126.475052,04-Apr-09
-14,University of Incheon,37.375055,126.6329,28-Aug-09
-15,"Institute for Korean-Chinese Cultural Relationship, Republic of Korea",37.500129,127.029083,24-Nov-04
-16,"Woosong University, Republic of Korea",36.335649,127.453113,30-Apr-07
-17,"Yonsei University, Republic of Korea",37.565784,126.938572,NA
-18,"Chungnam National University, Republic of Korea",36.369987,127.345955,26-Apr-07
-19,"Dong-A University, Republic of Korea",35.115866,128.967265,20-Nov-06
-20,"Dongseo University, Republic of Korea",35.143946,129.010565,03-Apr-07
-21,"Honam University, Republic of Korea",35.150795,126.76847,19-Dec-06
-22,"Chungbuk National University, Republic of Korea",36.628299,127.458325,28-Sep-06
-23,"Kangwon National University, Republic of Korea",37.869984,127.743386,24-Apr-07
-24,"Keimyung University, Republic of Korea",35.857435,128.485539,01-Sep-07
-25,Daebul University,34.747755,126.484424,14-Nov-07
-26,"Andong National University, Republic of Korea",36.541637,128.796435,20-Sep-12
-27,"Soon Chun Hyang University, Republic of Korea",36.769687,126.93169,28-Sep-07
-28,"Daejin University, Republic of Korea",37.873139,127.156804,01-Mar-08
-29,"Hankuk University of Foreign Studies, Republic of Korea",37.597319,127.057843,31-Oct-09
-30,Kyung Hee University,37.596195,127.052544,06-Apr-11
-31,Wonkwang University,35.96945,126.95732,24-Sep-14
-32,Semyung University,37.178077,128.195446,NA
-33,Hanyang University,37.557232,127.045322,NA
-34,Jeju National University,33.456472,126.565385,24-Mar-17
-35,"Eurasian National University, Kazakhstan",51.160307,71.464857,05-Dec-07
-36,Aktobe Regional State University named after K.Zhubanov,50.289255,57.152803,24-Mar-11
-37,"Karaganda State Technical University, Kazakhstan",49.818605,73.104398,01-Nov-11
-38,"Kazakh National University, Kazakhstan",43.225236,76.921919,23-Feb-09
-39,"Bishkek Humanities University, Kyrgyzstan",42.850372,74.584955,15-Jun-08
-40,"Kyrgyz National University, Kyrgyzstan",42.88238,74.587106,06-Nov-07
-41,"Osh State University, Kyrgyzstan",40.531669,72.79485,24-Jan-13
-42,"Jalalabad state university, Kyrgyzstan",40.926206,73.004837,26-Dec-16
-43,"Saint Joseph University, Lebanon",33.891676,35.508563,01-Feb-07
-44,"University of Malaya, Malaysia",3.120107,101.654549,01-Mar-10
-45,SEGI University,3.148399,101.577093,NA
-46,National University of Mongolia,47.923035,106.918895,16-Jun-07
-47,Mongolian State University of Education,47.91486,106.926754,NA
-48,"Khovd University, Khovd city (Jargalant soum)",48.001075,91.643387,10-Sep-15
-49,"North South University, Bangladesh",23.815029,90.425027,14-Feb-06
-50,University of Dhaka,23.731549,90.392495,NA
-51,"Kathmandu University, Nepal",27.669939,85.333893,13-Jun-07
-52,Ritsumeikan University,35.032556,135.723304,01-Oct-05
-53,"J. F. Oberlin University, Japan",35.581625,139.407508,01-Apr-06
-54,"Hokuriku University, Japan",36.525433,136.707513,05-Apr-06
-55,Aichi University,34.740424,137.386571,09-Jun-06
-56,"Sapporo University, Japan",43.077957,141.340013,13-Apr-07
-57,"Ritsumeikan Asia Pacific University, Japan",33.337061,131.46842,25-Oct-06
-58,Hyogo College of Medicine,34.718387,135.37896,09-Nov-12
-59,"Waseda University, Japan",35.708733,139.719648,12-Nov-07
-60,"Okayama Shoka University, Japan",34.683297,133.901025,25-Nov-07
-61,"Osaka Sangyo University, Japan",34.707986,135.645686,26-Nov-07
-62,"Fukuyama University, Japan",34.458438,133.229697,01-Apr-08
-63,"Kogakuin University, Japan",35.690582,139.6954,01-Oct-08
-64,Kansai University of Foreign Studies,34.823233,135.664125,01-Apr-10
-65,Musashino University,35.71786,139.547778,NA
-66,"University of Kelaniya, Sri Lanka",6.972903,79.915837,01-Oct-11
-67,Colombo University,6.902177,79.860682,NA
-68,"Chulalongkorn University, Thailand",13.738378,100.532053,26-Mar-07
-69,"Kasetsart University, Thailand",13.847028,100.5718,01-Oct-06
-70,"Khon Kaen University, Thailand",16.453708,102.829385,03-Aug-06
-71,"Mae Fah Luang University, Thailand",20.045038,99.891342,07-Nov-06
-72,"Chiang Mai University, Thailand",18.805968,98.953362,18-Dec-06
-73,"Prince of Songkla University, Thailand",7.006281,100.498627,29-Dec-06
-74,"Mahasarakham University, Thailand",16.199116,103.283997,20-Dec-06
-75,"Bansomdejchaopraya Rajabhat University, Thailand",13.732944,100.489153,19-Dec-06
-76,"Suan Dusit University at Suphanburi, Thailand",14.462574,100.208436,27-Dec-06
-77,"Prince of Songkla University, Thailand",7.894762,98.352078,24-Dec-06
-78,"Betong Municipality, Thailand",5.779985,101.037238,28-Dec-06
-79,"Burapha University, Thailand",13.285984,100.925362,15-Sep-09
-80,Assumption University,13.755223,100.627342,NA
-81,Dhurakij Pundit University,13.870298,100.550769,NA
-82,Huachiew Chalermprakiet University,13.75142,100.515332,22-Oct-16
-83,"Tashkent State Institute of Oriental Studies, Uzbekistan",41.298498,69.274576,07-May-05
-84,Samarkand State Institute of Foreign Languages,39.651347,66.964595,NA
-85,Tajikistan Nationality University,38.562539,68.800219,26-Feb-09
-86,Mining and Metallurgy Institute of Tajikistan,40.526209,69.338412,20-Aug-15
-87,"Nanyang Technological University, Singapore",1.34831,103.683135,01-Aug-06
-88,"University of Tehran, Iran",35.702285,51.395711,01-Jan-09
-89,"University of Mumbai, India",19.071122,72.855996,18-Jul-12
-90,"VIT University, India",12.841002,80.153892,09-Apr-09
-91,University of Al Azhar,-6.236248,106.799189,09-Nov-11
-92,Malang State University,-7.962774,112.618478,14-Mar-10
-93,"Maranatha Christian University, Indonesia",-6.886012,107.580671,18-Jan-11
-94,Universitas Negeri Surabaya,-7.315263,112.726977,19-May-11
-95,Tanjungpura University,-0.059731,109.34575,26-Nov-11
-96,Hasanuddin University,-5.133896,119.488064,22-Feb-11
-97,"Tel Aviv University, Israel",32.113314,34.804388,01-Nov-07
-98,"Hebrew University of Jerusalem, Israel",31.794558,35.241401,NA
-99,"Talal Abu-Ghazaleh Organization, Jordan",31.966977,35.890812,01-Apr-09
-100,"Philadelphia University, Jordan",32.164827,35.851398,16-Sep-12
-101,"The Hongkong Polytechnic University, China",22.302847,114.178419,12-May-06
-102,Royal Academy of Cambodia,11.537931,104.924817,01-Dec-09
-103,National University of Laos,18.037387,102.635257,23-Mar-10
-104,Baku State University,40.374561,49.811475,01-Jan-11
-105,Azerbaijan University of Languages,40.39513,49.860342,24-Jun-16
-106,"Free University of Tbilisi, Georgia",41.806363,44.768531,26-Nov-10
-107,"Bogazici University, Turkey",41.084757,29.05104,14-Apr-10
-108,"Middle East Technical University, Turkey",39.889995,32.780328,28-Nov-08
-109,"Okan University, Turkey",40.95175,29.391995,01-May-13
-110,Yeditepe University,40.973015,29.152586,NA
-111,Zayed University,25.103454,55.384648,24-Aug-10
-112,University of Dubai,25.106356,55.414654,23-Mar-11
-113,Hanoi University,20.9897,105.794717,NA
-114,University of Seychelles,-4.740394,55.515375,NA
-115,"University of Dodoma, Tanzania",-6.214218,35.824828,28-Apr-13
-116,"University of Dar es Salaam, Tanzania",-6.780413,39.205314,09-Oct-13
-117,University of Dakar,14.687795,-17.461823,03-Dec-12
-118,University of Sierra Leone,8.477677,-13.220908,01-Sep-12
-119,University of Namibia,-22.612169,17.058373,23-Aug-13
-120,"Eduardo Mondlane University, Mozambique",-25.95215,32.60356,16-Apr-12
-121,University of Malawi,-13.986554,33.767563,NA
-122,University of Ghana,5.651106,-0.186598,01-May-13
-123,University of Cape Coast,5.115533,-1.290896,01-Sep-16
-124,"Marien Ngouabi University, The Republic of Congo",-4.275361,15.251524,01-Mar-13
-125,"National Board for Higher Education, Eritrea",15.34267,38.927336,05-Jun-13
-126,Cairo University,30.027337,31.208574,18-Mar-08
-127,Suez Canal University,30.620533,32.269729,01-Apr-08
-128,University of Botswana,-24.66059,25.93091,30-May-09
-129,University of Zimbabwe,-17.784983,31.054561,05-Mar-07
-130,"University of Yaounde II, Cameroon",3.963734,11.586629,09-Nov-07
-131,University of Nairobi,-1.24899,36.74242,19-Dec-05
-132,Kenyatta University,-1.179969,36.934934,05-Jun-09
-133,Egerton University,-0.372808,35.93393,21-Oct-12
-134,"Moi University, Kenya",0.511163,35.284366,01-Mar-15
-135,University of Liberia,6.299137,-10.795073,18-Dec-08
-136,University of Rwanda-College of Education,-1.950514,30.121054,01-Apr-09
-137,Antananarivo University,-18.914032,47.551812,13-Nov-08
-138,University of Toamasina,-18.133783,49.3771,19-Sep-14
-139,"Stellenbosch University, South Africa",-33.932808,18.864447,01-Jan-09
-140,"University of Cape Town, South Africa",-33.957652,18.461199,01-Jul-10
-141,"Rhodes University, South Africa",-33.313591,26.516314,20-Aug-08
-142,"Durban University of Technology, South Africa",-29.853613,31.006113,20-Feb-14
-143,University of Johannesburg,-26.178115,27.992441,04-Jul-14
-144,"University of Lagos, Nigeria",6.519006,3.397181,01-May-09
-145,Nnamdi Azikiwe University,6.242917,7.118311,01-Mar-08
-146,"University of Khartoum, Sudan",15.609365,32.541711,17-Dec-09
-147,"University Mohammed V-Agdal, Morocco",33.987851,-6.858644,19-Oct-09
-148,"University Hassan II-Casablanca, Morocco",33.575514,-7.622784,10-Oct-12
-149,"University of Lome, Togo",6.177375,1.213,30-Oct-09
-150,"University of Abomey-Calavi, Benin",6.415745,2.341324,21-Oct-09
-151,"Technical, Vocational Education and Training Institute of Ethiopia",9.026714,38.823881,12-May-10
-152,Addis Ababa University,9.033504,38.76369,26-Nov-13
-153,University of Zambia,-15.38789,28.329733,01-Sep-10
-154,University of Burundi,-3.378906,29.383828,06-Sep-12
-155,Agostinho Neto University,-8.931942,13.283606,06-Feb-15
-156,"Makerere University, Uganda",0.329183,32.570988,19-Dec-14
-157,National University of Equatorial Guinea,3.746263,8.774906,NA
-158,University of Cabo Verde,14.911596,-23.526079,NA
-159,University of Felix Houphouette Boigny,5.34705,-3.985292,NA
-160,"University of Maryland, USA",38.986918,-76.942554,01-Mar-05
-161,"San Francisco State University, USA",37.721897,-122.478209,15-Feb-06
-162,College of William & Mary,37.271674,-76.713378,16-Apr-12
-163,China Institute,40.708651,-74.0144,01-Sep-05
-164,"University of Kansas, USA",38.954344,-95.255796,17-Mar-06
-165,"University of Hawaii at Manoa, USA",21.296939,-157.817112,28-Jun-06
-166,"University of Massachusetts at Boston, USA",42.314841,-71.036738,11-Nov-06
-167,"University of Iowa, USA",41.662696,-91.5549,15-Mar-06
-168,"Michigan State University, USA",42.701848,-84.482172,01-May-06
-169,"Pace University, USA",40.71112,-74.004857,19-May-09
-170,"The University of Oklahoma, USA",35.205894,-97.445714,23-Aug-06
-171,"Purdue University, West Lafayette",40.423705,-86.921195,01-Oct-10
-172,University of Missouri,38.940381,-92.327738,28-Jan-11
-173,"North Carolina State University, USA",35.784663,-78.682095,23-Apr-07
-174,"Bryant University, USA",41.921192,-71.537882,14-Sep-07
-175,"University of California, Los Angeles, USA",34.068921,-118.445181,01-Oct-10
-176,"University of California, Davis, USA",38.538232,-121.761712,21-Sep-12
-177,"University of Illinois at Urbana-Champaign, USA",40.101952,-88.227161,11-Oct-12
-178,"Portland State University, USA",45.511018,-122.683184,16-May-07
-179,"University of Rhode Island, USA",41.486065,-71.530854,30-Jan-07
-180,"Community College of Denver, USA",39.741455,-105.005153,25-Feb-07
-181,"New Mexico State University, USA",32.278774,-106.747906,13-Mar-07
-182,"University of Nebraska-Lincoln, USA",40.820197,-96.700476,30-Oct-07
-183,"University of Pittsburgh, USA",40.444353,-79.960835,05-May-07
-184,"Arizona State University, USA",33.453538,-112.073122,22-Oct-07
-185,"University of Oregon, USA",44.04483,-123.072606,02-Nov-09
-186,"University of Memphis, USA",35.118731,-89.93714,13-Aug-07
-187,"Wayne State University, USA",42.359139,-83.066546,27-Jun-07
-188,"Rutgers, the State University of New Jersey, USA",40.498196,-74.446796,01-May-08
-189,"University of Central Arkansas, USA",35.079282,-92.457442,18-Sep-08
-190,"Valparaiso University, USA",41.463939,-87.043889,23-Jul-07
-191,"Miami University, USA",39.510533,-84.730877,04-Aug-07
-192,"Uiversity of Indianapolis, USA",39.709623,-86.13646,02-Aug-07
-193,"University of Wisconsin-Platteville, USA",42.732371,-90.48726,17-Sep-07
-194,"Texas A&M University , USA",30.618531,-96.336499,28-Apr-08
-195,"Troy University, USA",31.80189,-85.957228,11-Oct-07
-196,"University of Utah, USA",40.764937,-111.842102,19-Oct-10
-197,University of Arizona,32.231885,-110.950109,01-Nov-07
-198,"Xavier University of Louisiana, USA",29.963863,-90.107084,20-Oct-12
-199,"Houston Independent School District, USA",29.727312,-95.352088,NA
-200,Broward County Public Schools,26.114367,-80.139524,NA
-201,East Central Ohio Educational Service Center,40.483548,-81.432834,NA
-202,"Corolado State University, USA",40.573436,-105.086547,20-Mar-12
-203,"Auburn University at Montgomery, USA",32.369746,-86.176658,02-Nov-12
-204,"Old Dominion University, USA",36.885551,-76.306768,19-Apr-13
-205,"Central Connecticut State University, USA",41.693255,-72.764167,20-May-13
-206,Texas Southern University,29.721763,-95.360612,12-Apr-13
-207,"The University of Texas at Dallas, USA",32.985762,-96.750099,05-Nov-07
-208,"Webster University , USA, St. Louis",38.589288,-90.343767,11-Nov-07
-209,"University of South Florida, USA",28.058703,-82.413854,06-Mar-08
-210,"University of Minnesota, USA",44.97399,-93.227729,19-Sep-08
-211,"Emory University, USA",33.792519,-84.323999,09-Mar-08
-212,"The University of Akron, USA",41.076655,-81.511339,03-Nov-08
-213,"University of Montana, USA",46.860067,-113.985208,01-Sep-09
-214,"University of South Carolina, USA",33.996112,-81.027428,03-Jul-08
-215,Cleveland State University,41.50255,-81.675337,28-Aug-08
-216,"Kennesaw State University, USA",33.939713,-84.519657,17-Aug-09
-217,"Pfeiffer University, USA",35.167478,-80.8491,06-Nov-09
-218,"San Diego State University, USA",32.775722,-117.071889,30-Oct-08
-219,"University of Toledo, USA",41.658031,-83.61407,10-Aug-09
-220,"Alfred University, USA",42.255822,-77.786103,20-Jan-09
-221,"Stony Brook University , USA",40.912376,-73.123389,19-May-10
-222,"Goerge Mason University, USA",38.831554,-77.312089,16-Apr-09
-223,"Presbyterian College, USA",34.465182,-81.877559,06-Nov-09
-224,"University of Michigan, USA",42.278044,-83.738224,05-Nov-09
-225,"Western Michigan University, USA",42.283734,-85.610251,23-Nov-09
-226,"University of Washington, Seattle Public Schools, USA",47.655335,-122.30352,26-Apr-10
-227,"George Washington University, USA",38.899715,-77.048599,10-Apr-13
-228,"University of Idaho, USA",46.728812,-117.012608,07-Feb-13
-229,"University of Southern Maine, USA",43.662248,-70.275694,NA
-230,"University of West Florida, USA",30.546934,-87.216022,19-May-10
-231,"Prairie View A&M University, USA",29.712996,-95.39858,03-Jul-13
-232,"University at Albany, State University of New York, USA",42.684943,-73.82525,23-Sep-13
-233,"Dickinson State University, USA",46.882323,-102.799572,07-Apr-11
-234,"St. Cloud State University, USA",45.551186,-94.151514,30-Aug-13
-235,"Augusta University, USA",33.475856,-82.022974,NA
-236,"Miami Dade College, USA",25.77762,-80.190909,29-Apr-10
-237,"Middle Tennessee University, USA",35.84861,-86.364881,21-Apr-10
-238,"University of Tennessee, USA",35.954401,-83.929456,17-Apr-13
-239,"Wesleyan College, USA",32.874577,-83.712477,11-Apr-13
-240,"State College of Optometry, State University of New York, USA",40.754422,-73.982227,27-Oct-10
-241,"Chicago Public Schools, USA",41.856147,-87.658113,10-May-06
-242,"State University of New York, USA",40.754295,-73.991135,10-Dec-10
-243,"Columbia University, USA",40.807536,-73.962573,18-Apr-13
-244,"University at Buffalo, State University of New York, USA",43.000809,-78.78897,09-Apr-10
-245,"University of Texas at San Antonio, USA",29.583045,-98.619656,10-Feb-10
-246,"Binghamton University, USA",42.089355,-75.969705,06-Nov-09
-247,"Stanford University, USA",37.427475,-122.169719,27-Sep-13
-248,"West Kentucky University, USA",36.985354,-86.456138,19-May-10
-249,"Kentucky University, USA",38.030651,-84.50397,06-Nov-10
-250,"University of Delaware, USA",39.67795,-75.750611,19-Oct-10
-251,"University of New Hampshire, USA",43.138948,-70.937025,NA
-252,"Georgia State University, USA",33.753068,-84.385282,01-Sep-10
-253,"University of Alaska Anchorage, USA",61.191042,-149.81956,08-Sep-09
-254,"Northern State University, USA",45.451099,-98.484492,10-Apr-15
-255,"Tufts University, USA",42.407484,-71.119023,06-Jun-14
-256,"Kansas State University, USA",39.197444,-96.584725,12-Jun-14
-257,"University of North Florida, USA",30.26612,-81.507231,03-Jul-14
-258,"Alabama A&M University, USA",34.784633,-86.572031,05-Aug-14
-259,"California State University, Long Beach, USA",33.783823,-118.11409,24-Oct-14
-260,"Temple University, USA",39.981193,-75.155351,31-Oct-14
-261,"West Virginia University, USA",39.63614,-79.955936,05-Nov-14
-262,"Southern Utah University, USA",37.676444,-113.071332,18-May-15
-263,"New Jersey City University, USA",40.709662,-74.087656,01-Jun-15
-264,"Clark County School District, USA",36.169941,-115.13983,NA
-265,Davis School Disrict,40.9805,-111.887439,NA
-266,Savannah State University,32.024521,-81.062637,NA
-267,"University of California, Santa Barbara",34.413963,-119.848947,NA
-268,Northwest Nazarene University,43.561243,-116.566626,NA
-269,University of Regina,50.417013,-104.58849,04-Nov-11
-270,British Columbia Institute of Technology,49.248456,-123.001213,07-Feb-06
-271,Coquitlam School District,49.251988,-122.847151,29-Apr-08
-272,"University of Waterloo, Canada",43.472285,-80.544858,29-Apr-08
-273,"Dawson College, Canada",45.489698,-73.587785,08-Oct-07
-274,Department of Education in New Brunswick,46.091199,-64.769342,29-Apr-08
-275,Edmonton Public Schools,53.554646,-113.495572,04-May-08
-276,"Brock University, Canada",43.117573,-79.247692,05-May-10
-277,Carleton University,45.387581,-75.69602,19-Apr-12
-278,"Saint Mary's University, Canada",44.630574,-63.582154,29-Apr-08
-279,"Seneca College, Canada",43.795451,-79.349731,24-Nov-11
-280,"University of Saskatchewan, Canada",52.1334,-106.631358,18-Jun-12
-281,"Instituto Cultural Chino Huaxia, Mexico",19.373632,-99.160816,22-Nov-06
-282,"University of New Leon, Mexico",25.726406,-100.311904,11-Mar-07
-283,"Universidad AutÑnoma de Yucatàn, Mexico",20.96965,-89.623128,25-Sep-07
-284,Universidad Nacional AutÑnoma de M_xico,19.31889,-99.184368,12-Nov-08
-285,"Autonomous University of Chihuahua, Mexico",28.655157,-106.087727,05-Mar-08
-286,"Universidad CatÑlica de Santa Maria, Peru",-16.406179,-71.54763,19-Nov-08
-287,Piura University,-5.17653,-80.637889,17-Aug-09
-288,Catholic University of Peru,-12.069076,-77.078437,20-Mar-09
-289,Ricardo Palma University,-12.131619,-76.979438,11-Nov-10
-290,The city government of Medellin,6.253079,-75.561912,30-Apr-10
-291,"Universidad de Los Andes, Colombia",4.601485,-74.066446,02-Nov-07
-292,Jorge Tadeo Lozano University,4.606834,-74.0678,07-May-13
-293,Universidad de La Habana,23.136841,-82.381506,30-Nov-09
-294,"Universidad Santo Tomas, Chile",-33.036577,-71.517225,28-Apr-08
-295,Catholic University of Chile,-33.441128,-70.640793,05-May-09
-296,Universidade de SÜo Paulo,-23.561399,-46.730789,26-Nov-08
-297,FAAPHigher education center,-23.545126,-46.663025,19-Jul-12
-298,Universidade Federal de Minas Gerais,-19.869088,-43.966384,29-Nov-13
-299,University of Pernambuco,-8.04406,-34.886117,NA
-300,Universidade Federal do Rio Grande do Sul-UFRGS,-30.033841,-51.21857,25-Apr-12
-301,Universidade de Brasilia,-15.765157,-47.869904,29-Mar-10
-302,Pontifical Catholic University of Rio de Janeiro,-22.979612,-43.233355,01-Sep-11
-303,University of Campinas,-22.818439,-47.064721,NA
-304,"State University of Parà, Bel_m",-1.428205,-48.454647,17-Jul-14
-305,Federal University of Cearà,-3.741451,-38.53936,17-Jul-14
-306,Universidad de Buenos Aires,-34.599888,-58.373069,27-May-09
-307,National University of La Plata,-34.912882,-57.951122,01-Sep-10
-308,University of Costa Rica,9.936995,-84.051029,07-Aug-09
-309,University of the West Indies,18.00599,-76.746894,13-Feb-09
-310,San Francisco University of Quito,-0.19689,-78.435744,27-Dec-10
-311,Bahamas University Sau,26.594188,-78.553424,17-Oct-12
-312,Universidad Mayor de San SimÑn,-17.393373,-66.144964,03-Sep-11
-313,University of Guyana,6.813249,-58.117278,24-Mar-13
-314,University of the West Indies,10.641586,-61.399471,20-Oct-13
-315,"University of West Indies, Cave Hill Campus",13.134564,-59.629788,07-Jul-14
-316,Universidad Bolivariana de Venezuela,10.487495,-66.885806,02-Sep-15
-317,Anton de Kom University of Suriname,5.812859,-55.217253,16-Feb-17
-318,University of Geneva,46.199444,6.145116,10-Dec-10
-319,University of Basel,47.560253,7.5826,13-May-13
-320,SS Cyril and Methodius University,41.99942,21.443239,03-Apr-13
-321,University of Latvia,56.95081,24.116313,26-Apr-11
-322,University of Zagreb,45.81057,15.969802,27-Jul-11
-323,"University of Tirana, Albania",41.309445,19.801978,22-May-13
-324,"University College Cork, Ireland",51.89211,-8.493274,24-Oct-07
-325,"University College Dublin, Ireland",53.305344,-6.220654,15-Feb-06
-326,"University of Vienna, Austria",48.213185,16.36005,26-May-06
-327,"University of Graz, Austria",47.077787,15.449913,08-Jun-10
-328,"Belarusian State University, Belarus",53.893039,27.545557,05-Jul-06
-329,"Minsk State Linguistic University, Belarus",53.907296,27.577719,19-Sep-11
-330,Belarusian National Technical University,53.921022,27.593032,06-Dec-13
-331,University of Sofia,42.693508,23.334793,01-Dec-05
-332,"St. Cyril and St. Methodius University of Veliko Turnovo, Bulgaria",43.078432,25.649235,28-Mar-12
-333,"Belgium China Association, Belgium",50.85988,4.379476,10-Mar-05
-334,"University of Liege, Belgium",50.58308,5.559064,02-Jun-05
-335,"University College West Flanders, Belgium",50.82186,3.250534,20-Feb-12
-336,"GROUP T, Belgium",50.874854,4.707768,24-Apr-06
-337,Universit_ Libre de Bruexlles,50.813207,4.382222,29-Jun-15
-338,Confucius Institute at VUB,50.821658,4.394886,NA
-339,University of Iceland,64.13962,-21.95189,19-Oct-07
-340,"Jagiellonian University, Poland",50.060962,19.934107,01-Dec-06
-341,"Opole University of Technology, Poland",50.654117,17.905043,08-Oct-08
-342,"Adam Mickiewicz University, Poland",52.408397,16.915402,14-Jun-08
-343,"University of Wroclaw, Poland",51.114005,17.034463,01-Sep-08
-344,"University of Gda_sk, Gda_sk",54.396135,18.57432,21-Sep-15
-345,Copenhagen Business School,55.681611,12.529679,20-Nov-07
-346,Royal Danish Academy of Music,55.68221,12.552525,16-Jun-12
-347,Aalborg University,57.014567,9.981853,03-Jul-09
-348,Freie Universitat Berlin,52.452526,13.289679,01-Jul-05
-349,Heinrich-Heine-Universitat Dasseldorf,51.192429,6.793681,02-Jun-06
-350,"Friedrich-Alexander-University Erlangen-NÙrnberg, NÙrnberg",49.59788,11.004551,31-Aug-05
-351,Gí_the Universitat Frankfurt am Main,50.127068,8.667763,25-Apr-08
-352,Ruprecht-Karls-Universití_t Heidelberg,9.41914,8.670249,16-Jun-06
-353,Universití_t Hamburg,53.566564,9.98462,07-Jun-06
-354,Chinese Center Hannover,52.378841,9.722385,14-Sep-06
-355,Œ Universití_t Leipzig,51.338574,12.378461,14-Jun-06
-356,Œ Stiftung Ex-Oriente Munich,48.136761,11.571689,17-Feb-09
-357,Bremen University of Applied Sciences,53.072635,8.793819,23-Oct-13
-358,University of Duisburg-Essen,51.427717,6.801008,18-May-07
-359,Œ Erfurt University of Applied Sciences,50.984791,11.041495,07-Nov-11
-360,Albert-Ludwigs-Universití_t Freuburg,47.993544,7.84595,01-Sep-08
-361,Œ Universití_t Trier,49.74576,6.68847,01-Jul-08
-362,University of Paderborn,51.70821,8.771984,11-Jun-14
-363,Goettingen University,51.540812,9.9374,22-Sep-13
-364,Fachhochschule Stralsund University of Applied Sciences,54.33893,13.074137,11-Nov-15
-365,Technische Hochschule Ingolstadt,48.766778,11.431934,06-Oct-16
-366,Far Eastern Federal University,43.117401,131.892542,21-Dec-06
-367,Russian State University for the Humanities,55.777602,37.597243,26-Dec-06
-368,Moscow State University,55.703935,37.52867,06-Sep-07
-369,"St-Petersburg State University, St. Petersburg",59.941894,30.29892,10-Nov-06
-370,Irkutsk National University,52.276612,104.277729,12-Dec-06
-371,Novosibirsk State University of Technology,54.847746,83.094388,08-Apr-07
-372,Kazan Federal University,55.790447,49.121435,24-Apr-07
-373,Blagoveschensk State Pedagogical University,50.269271,127.507252,15-May-07
-374,The Kalmyk State University,46.308056,44.270564,22-Nov-07
-375,Tomsk State University,56.469492,84.947868,01-May-08
-376,Buryat State University,51.834035,107.579917,06-Jul-07
-377,Ural Federal University,56.8442,60.653326,28-Dec-07
-378,Moscow State Linguistic University,55.738755,37.594949,23-Mar-10
-379,Ryazan State University,54.629039,39.753255,23-Mar-10
-380,Nizhny Novgorod State Linguistic University,56.324429,44.028629,05-May-10
-381,Volgograd State Socio-Pedagogical University,48.714705,44.526513,22-Jun-10
-382,Amur State University of Humanities and Pedagogy,50.298522,127.510168,23-Oct-10
-383,University of Poitiers,46.585991,0.346048,31-Jul-05
-384,Paris Diderot University,48.829319,2.381794,16-Mar-07
-385,Chinese Cultural Center in Paris,48.861994,2.310545,29-Dec-05
-386,"Region of Brittany, City of Rennes",48.117266,-1.677793,08-Jun-06
-387,"University of La Rochelle, Government of La Rochelle City",46.152476,-1.153721,12-May-06
-388,Region of Alsace and 9 organizations,48.583276,7.761486,23-Jan-07
-389,City of Clermont-Ferrand,45.777222,3.087025,11-Dec-07
-390,West Paris Nanterre la Defense University,48.903399,2.211274,06-Feb-08
-391,University of Toulouse,43.594376,1.450649,NA
-392,Artois University,50.283639,2.792248,28-Feb-08
-393,"Region of Pays de la Loire, City of Angers",47.47,-0.56,13-Apr-09
-394,University of Lorraine,48.696274,6.176466,16-May-11
-395,University of French Polynesia,-17.576387,-149.608695,15-Jan-13
-396,University of Montpellier 2,43.6312,3.861477,26-Apr-13
-397,University of Reunion Island,-20.902714,55.481468,05-May-10
-398,Neoma Business School,49.463076,1.063847,17-Oct-13
-399,University of Nice Sophia Antipolis,43.709948,7.289682,13-Dec-16
-400,University of Helsinki,60.172635,24.951042,01-Sep-07
-401,"University of Groningen, Hanze University of Applied Sciences Groningen the Municipality of Groningen.",53.241266,6.532617,10-Dec-10
-402,Leiden University,52.157148,4.485209,07-Jul-06
-403,Palack_ University,49.595427,17.260015,06-Oct-06
-404,Lucian Blaga University of Sibiu,45.790623,24.145187,21-Aug-06
-405,Babe_-Bolyai University of Cluj-Napoca,46.767795,23.591276,03-Oct-09
-406,Transilvania University of Brasov,45.645155,25.589118,29-Mar-11
-407,University of Bucharest,44.435445,26.101673,19-Mar-13
-408,"University of Bergen, Bergen University College",60.387859,5.321755,01-Jan-08
-409,University of Lisbon,38.752504,-9.15851,31-Jan-07
-410,University of Minho,41.559897,-8.396623,09-Dec-05
-411,Aveiro,40.640506,-8.653754,21-Sep-14
-412,University of Coimbra,40.208907,-8.424151,NA
-413,LuleÎ Tekniska Universitet the Municipality of Groningen,65.617996,22.140179,04-May-12
-414,University of Belgrade,44.818434,20.457568,30-May-06
-415,University of Novi Sad,45.247289,19.854052,NA
-416,Slovak University of Technology,48.154703,17.117527,25-Feb-07
-417,Comenius University,48.141131,17.115559,02-Sep-14
-418,Luhansk National Pedagogical University,48.564836,39.316593,20-Oct-06
-419,South Ukranian National Pedagogical,46.480536,30.721488,28-Sep-11
-420,National Taras Shevchenko University of Kyiv,50.442087,30.510402,01-Oct-10
-421,Kharkiv State University,50.009325,36.22927,06-May-08
-422,Kiev State Linguistic University,50.427615,30.517108,06-Sep-13
-423,Autonomous University of Madrid_Casa Asia,40.415375,-3.711198,14-Nov-05
-424,University of Leon,42.61336,-5.559935,20-May-11
-425,University of Granada,37.183853,-3.600767,05-Jul-06
-426,University of Valencia,39.479325,-0.359386,25-May-07
-427,University of Las Palmas of Gran Canaria,28.099018,-15.420326,08-Nov-10
-428,"University of Barcelona, Autonomous University of Barcelona, Casa Asia",41.502682,2.104322,03-Jun-08
-429,Athens University of Economics and Business,37.994081,23.732435,23-Jun-08
-430,E_tv_s Lorànd University,47.49057,19.058545,21-Jun-06
-431,University of Szeged,46.244813,20.147868,14-May-12
-432,University of Miskolc,48.081286,20.764431,25-Apr-13
-433,University of Pecs,46.074183,18.237722,27-Aug-14
-434,Sapienza University of Rome,41.903763,12.514438,04-Jul-05
-435,Oriental University of Napolipoli,40.84859,14.255103,19-Jul-07
-436,Universit_ Sainte-Anne,43.720966,10.402786,11-Dec-07
-437,Universita degli Studi di Torino,45.069428,7.688901,11-Mar-08
-438,University of Bologna,44.496232,11.354157,18-Jul-08
-439,University of Florence,43.777643,11.259765,07-Jun-13
-440,University of Venice,45.434532,12.326197,22-Sep-08
-441,University of Padova,45.406766,11.877446,08-Oct-08
-442,University of Milano,45.460144,9.194584,23-Jul-09
-443,Universitö Cattolica del Sacro Cuore UCSC,45.463287,9.174035,20-Jul-09
-444,University of Macerata,43.299103,13.449842,11-Mar-11
-445,University of Liverpool,53.405936,-2.965572,05-Dec-08
-446,University of Edinburgh,55.944516,-3.189241,15-Dec-05
-447,"SOAS, London University",51.52235,-0.129259,14-Jun-05
-448,UCL Institute of Education,51.522944,-0.128,18-Oct-06
-449,University of Aberdeen,57.16476,-2.101526,31-Oct-12
-450,Edge Hill University,53.559683,-2.87385,15-Nov-12
-451,De Montfort University,52.629226,-1.139687,04-Feb-14
-452,University of Leeds,53.806682,-1.555033,10-Aug-12
-453,"Goldsmiths College, University of London",51.474271,-0.035408,28-Dec-11
-454,"London School of Economics and Political Science, British Petroleum Plc, Deloitte LLP, HSBC, Standard Chartered Bank, John Swire and SLtd.",51.514408,-0.117377,06-Apr-06
-455,Lancaster University,54.010394,-2.787729,23-Mar-11
-456,London South Bank University,51.498224,-0.102086,24-May-07
-457,University of Manchester,53.46685,-2.233884,15-Jul-05
-458,University of Nottingham,52.938636,-1.195158,12-Sep-07
-459,University of Sheffield,53.380941,-1.487947,12-Apr-06
-460,Cardiff University,51.486627,-3.178864,02-Apr-07
-461,University of Central Lancashire,53.761924,-2.708439,28-Apr-08
-462,University of Wales Trinity Saint David,52.113607,-4.07654,12-Mar-07
-463,University of Glasgow,55.872121,-4.288201,07-Apr-11
-464,University of Southampton,50.936284,-1.39803,25-May-11
-465,University of Ulster,54.60381,-5.929358,14-Jul-11
-466,"SCILT, Scotland's National Centre for Language",55.863838,-4.241577,22-Oct-10
-467,Heriot Watt University,55.90966,-3.320349,05-Nov-13
-468,Newcastle University,54.979187,-1.614661,17-Feb-12
-469,Bangor University,53.22952,-4.129987,17-Apr-12
-470,University of Hull,53.771455,-0.367387,NA
-471,Queen Mary University of London,51.524067,-0.040374,22-May-15
-472,Coventry University,52.407175,-1.503746,NA
-473,Oxford Brookes University,51.755011,-1.224225,19-Sep-15
-474,University of Malta,35.898376,14.515488,22-Feb-09
-475,Free International University of Moldova,47.022978,28.83688,10-Apr-09
-476,University of Ljubljana,46.049194,14.504155,27-Aug-09
-477,Tallinn University,59.438742,24.771645,16-Feb-10
-478,Vilnius University,54.682576,25.287647,08-Feb-10
-479,University of Montenegro,42.443012,19.240594,02-Sep-14
-480,University of Cyprus,35.160001,33.377017,14-Nov-13
-481,University of the Republic of San Marino,43.937743,12.445046,28-Oct-14
-482,University of Sarajevo,43.856883,18.418885,07-Dec-14
-483,University of Western Australia,-31.981179,115.81991,26-Jun-06
-484,"University of Melbourne, Australia",-37.796369,144.961174,25-Jun-07
-485,"University of Adelaide, Australia",-34.920603,138.606228,14-Mar-07
-486,"University of Queensland, Australia",-27.495431,153.01203,19-Nov-10
-487,"Queensland University of Technology, Australia",-27.477356,153.028423,15-Jun-09
-488,"University of Sydney, Australia",-33.888584,151.187347,17-Jun-08
-489,"University of New South Wales, Australia",-33.917347,151.231268,30-Jul-09
-490,"Royal Melbourne Institute of Technology, Australia",-37.808943,144.965117,20-Jun-10
-491,"University of Newcastle, Australia",-32.892772,151.704178,11-May-11
-492,"Charles Darwin University, Australia",-12.371785,130.86892,31-Jul-12
-493,"Department of Education and Communities, State of New South Wales, Australia",-33.863557,151.21071,28-Nov-11
-494,Victoria University,-37.814878,144.954696,26-Nov-15
-495,Griffith University,-27.553836,153.053678,09-Apr-11
-496,"La Trobe University, Australia",-37.720727,145.048395,16-Nov-11
-497,"University of Auckland, New Zealand",-36.852338,174.769107,22-Mar-05
-498,"University of Canterbury, New Zealand",-43.523538,172.583923,27-May-10
-499,"Victoria University of Wellington, New Zealand",-41.290402,174.768662,19-Jun-10
-500,"University of the South Pacific, Fiji",-18.149953,178.444023,06-Sep-12
+id,location,country,latitude,longitude,date
+1,University of Bahrain,Bahrain,26.056503,50.508898,15-Apr-14
+2,Kabul University,Afghanistan,34.519137,69.136305,1-Mar-08
+3,Yerevan Brusov State University of Languages and Social Sciences,Armenia,40.187134,44.511243,25-Feb-09
+4,National University of Modern Languages,Pakistan,33.666544,73.051578,9-Apr-07
+5,University of Karachi,Pakistan,24.940023,67.12093,29-Nov-13
+6,University of Agriculture Faisalabad,Pakistan,31.430982,73.069511,NA
+7,University of the Punjab,Pakistan,31.478984,74.266163,NA
+8,Ateneo de Manila University,Philippines,14.639451,121.078092,1-Oct-06
+9,Bulacan State University,Philippines,14.857932,120.813636,28-Feb-09
+10,Angeles University Foundation,Philippines,15.145661,120.594802,10-Nov-09
+11,University of the Philippines,Philippines,14.654557,121.064727,1-Oct-15
+12,Woosuk University,South Korea,35.912653,127.0667,1-Feb-09
+13,Cheju Halla College,South Korea,33.476694,126.475052,4-Apr-09
+14,University of Incheon,South Korea,37.375055,126.6329,28-Aug-09
+15,Institute for Korean-Chinese Cultural Relationship,South Korea,37.500129,127.029083,24-Nov-04
+16,Woosong University,South Korea,36.335649,127.453113,30-Apr-07
+17,Yonsei University,South Korea,37.565784,126.938572,NA
+18,Chungnam National University,South Korea,36.369987,127.345955,26-Apr-07
+19,Dong-A University,South Korea,35.115866,128.967265,20-Nov-06
+20,Dongseo University,South Korea,35.143946,129.010565,3-Apr-07
+21,Honam University,South Korea,35.150795,126.76847,19-Dec-06
+22,Chungbuk National University,South Korea,36.628299,127.458325,28-Sep-06
+23,Kangwon National University,South Korea,37.869984,127.743386,24-Apr-07
+24,Keimyung University,South Korea,35.857435,128.485539,1-Sep-07
+25,Daebul University,South Korea,34.747755,126.484424,14-Nov-07
+26,Andong National University,South Korea,36.541637,128.796435,20-Sep-12
+27,Soon Chun Hyang University,South Korea,36.769687,126.93169,28-Sep-07
+28,Daejin University,South Korea,37.873139,127.156804,1-Mar-08
+29,Hankuk University of Foreign Studies,South Korea,37.597319,127.057843,31-Oct-09
+30,Kyung Hee University,South Korea,37.596195,127.052544,6-Apr-11
+31,Wonkwang University,South Korea,35.96945,126.95732,24-Sep-14
+32,Semyung University,South Korea,37.178077,128.195446,NA
+33,Hanyang University,South Korea,37.557232,127.045322,NA
+34,Jeju National University,South Korea,33.456472,126.565385,24-Mar-17
+35,Eurasian National University,Kazakhstan,51.160307,71.464857,5-Dec-07
+36,Aktobe Regional State University,Kazakhstan,50.289255,57.152803,24-Mar-11
+37,Karaganda State Technical University,Kazakhstan,49.818605,73.104398,1-Nov-11
+38,Kazakh National University,Kazakhstan,43.225236,76.921919,23-Feb-09
+39,Bishkek Humanities University,Kyrgyzstan,42.850372,74.584955,15-Jun-08
+40,Kyrgyz National University,Kyrgyzstan,42.88238,74.587106,6-Nov-07
+41,Osh State University,Kyrgyzstan,40.531669,72.79485,24-Jan-13
+42,Jalalabad State University,Kyrgyzstan,40.926206,73.004837,26-Dec-16
+43,Saint Joseph University,Lebanon,33.891676,35.508563,1-Feb-07
+44,University of Malaya,Malaysia,3.120107,101.654549,1-Mar-10
+45,SEGI University,Malaysia,3.148399,101.577093,NA
+46,National University of Mongolia,Mongolia,47.923035,106.918895,16-Jun-07
+47,Mongolian State University of Education,Mongolia,47.91486,106.926754,NA
+48,Khovd University,Mongolia,48.001075,91.643387,10-Sep-15
+49,North South University,Bangladesh,23.815029,90.425027,14-Feb-06
+50,University of Dhaka,Bangladesh,23.731549,90.392495,NA
+51,Kathmandu University,Nepal,27.669939,85.333893,13-Jun-07
+52,Ritsumeikan University,Japan,35.032556,135.723304,1-Oct-05
+53,J. F. Oberlin University,Japan,35.581625,139.407508,1-Apr-06
+54,Hokuriku University,Japan,36.525433,136.707513,5-Apr-06
+55,Aichi University,Japan,34.740424,137.386571,9-Jun-06
+56,Sapporo University,Japan,43.077957,141.340013,13-Apr-07
+57,Ritsumeikan Asia Pacific University,Japan,33.337061,131.46842,25-Oct-06
+58,Hyogo College of Medicine,Japan,34.718387,135.37896,9-Nov-12
+59,Waseda University,Japan,35.708733,139.719648,12-Nov-07
+60,Okayama Shoka University,Japan,34.683297,133.901025,25-Nov-07
+61,Osaka Sangyo University,Japan,34.707986,135.645686,26-Nov-07
+62,Fukuyama University,Japan,34.458438,133.229697,1-Apr-08
+63,Kogakuin University,Japan,35.690582,139.6954,1-Oct-08
+64,Kansai University of Foreign Studies,Japan,34.823233,135.664125,1-Apr-10
+65,Musashino University,Japan,35.71786,139.547778,NA
+66,University of Kelaniya,Sri Lanka,6.972903,79.915837,1-Oct-11
+67,Colombo University,Sri Lanka,6.902177,79.860682,NA
+68,Chulalongkorn University,Thailand,13.738378,100.532053,26-Mar-07
+69,Kasetsart University,Thailand,13.847028,100.5718,1-Oct-06
+70,Khon Kaen University,Thailand,16.453708,102.829385,3-Aug-06
+71,Mae Fah Luang University,Thailand,20.045038,99.891342,7-Nov-06
+72,Chiang Mai University,Thailand,18.805968,98.953362,18-Dec-06
+73,Prince of Songkla University,Thailand,7.006281,100.498627,29-Dec-06
+74,Mahasarakham University,Thailand,16.199116,103.283997,20-Dec-06
+75,Bansomdejchaopraya Rajabhat University,Thailand,13.732944,100.489153,19-Dec-06
+76,Suan Dusit University,Thailand,14.462574,100.208436,27-Dec-06
+77,Prince of Songkla University,Thailand,7.894762,98.352078,24-Dec-06
+78,Betong Municipality,Thailand,5.779985,101.037238,28-Dec-06
+79,"Burapha University,",Thailand,13.285984,100.925362,15-Sep-09
+80,Assumption University,Thailand,13.755223,100.627342,NA
+81,Dhurakij Pundit University,Thailand,13.870298,100.550769,NA
+82,Huachiew Chalermprakiet University,Thailand,13.75142,100.515332,22-Oct-16
+83,Tashkent State Institute of Oriental Studies,Uzbekistan,41.298498,69.274576,7-May-05
+84,Samarkand State Institute of Foreign Languages,Uzbekistan,39.651347,66.964595,NA
+85,Tajikistan Nationality University,Tajikistan,38.562539,68.800219,26-Feb-09
+86,Mining and Metallurgy Institute of Tajikistan,Tajikistan,40.526209,69.338412,20-Aug-15
+87,Nanyang Technological University,Singapore,1.34831,103.683135,1-Aug-06
+88,University of Tehran,Iran,35.702285,51.395711,1-Jan-09
+89,University of Mumbai,India,19.071122,72.855996,18-Jul-12
+90,VIT University,India,12.841002,80.153892,9-Apr-09
+91,University of Al Azhar,Indonesia,-6.236248,106.799189,9-Nov-11
+92,Malang State University,Indonesia,-7.962774,112.618478,14-Mar-10
+93,Maranatha Christian University,Indonesia,-6.886012,107.580671,18-Jan-11
+94,Universitas Negeri Surabaya,Indonesia,-7.315263,112.726977,19-May-11
+95,Tanjungpura University,Indonesia,-0.059731,109.34575,26-Nov-11
+96,Hasanuddin University,Indonesia,-5.133896,119.488064,22-Feb-11
+97,Tel Aviv University,Israel,32.113314,34.804388,1-Nov-07
+98,Hebrew University of Jerusalem,Israel,31.794558,35.241401,NA
+99,Talal Abu-Ghazaleh Organization,Jordan,31.966977,35.890812,1-Apr-09
+100,Philadelphia University,Jordan,32.164827,35.851398,16-Sep-12
+101,The Hongkong Polytechnic University,Hong Kong,22.302847,114.178419,12-May-06
+102,Royal Academy of Cambodia,Cambodia,11.537931,104.924817,1-Dec-09
+103,National University of Laos,Laos,18.037387,102.635257,23-Mar-10
+104,Baku State University,Azerbaijan,40.374561,49.811475,1-Jan-11
+105,Azerbaijan University of Languages,Azerbaijan,40.39513,49.860342,24-Jun-16
+106,Free University of Tbilisi,Georgia,41.806363,44.768531,26-Nov-10
+107,Bogazici University,Turkey,41.084757,29.05104,14-Apr-10
+108,Middle East Technical University,Turkey,39.889995,32.780328,28-Nov-08
+109,Okan University,Turkey,40.95175,29.391995,1-May-13
+110,Yeditepe University,Turkey,40.973015,29.152586,NA
+111,Zayed University,United Arab Emirates,25.103454,55.384648,24-Aug-10
+112,University of Dubai,United Arab Emirates,25.106356,55.414654,23-Mar-11
+113,Hanoi University,Vietnam,20.9897,105.794717,NA
+114,University of Seychelles,Seychelles,-4.740394,55.515375,NA
+115,University of Dodoma,Tanzania,-6.214218,35.824828,28-Apr-13
+116,University of Dar es Salaam,Tanzania,-6.780413,39.205314,9-Oct-13
+117,University of Dakar,Senegal,14.687795,-17.461823,3-Dec-12
+118,University of Sierra Leone,Sierra Leone,8.477677,-13.220908,1-Sep-12
+119,University of Namibia,Namibia,-22.612169,17.058373,23-Aug-13
+120,Eduardo Mondlane University,Mozambique,-25.95215,32.60356,16-Apr-12
+121,University of Malawi,Malawi,-13.986554,33.767563,NA
+122,University of Ghana,Ghana,5.651106,-0.186598,1-May-13
+123,University of Cape Coast,Ghana,5.115533,-1.290896,1-Sep-16
+124,Marien Ngouabi University,Republic of Congo,-4.275361,15.251524,1-Mar-13
+125,National Board for Higher Education ,Eritrea,15.34267,38.927336,5-Jun-13
+126,Cairo University,Egypt,30.027337,31.208574,18-Mar-08
+127,Suez Canal University,Egypt,30.620533,32.269729,1-Apr-08
+128,University of Botswana,Botswana,-24.66059,25.93091,30-May-09
+129,University of Zimbabwe,Zimbabwe,-17.784983,31.054561,5-Mar-07
+130,University of Yaounde II,Cameroon,3.963734,11.586629,9-Nov-07
+131,University of Nairobi,Kenya,-1.24899,36.74242,19-Dec-05
+132,Kenyatta University,Kenya,-1.179969,36.934934,5-Jun-09
+133,Egerton University,Kenya,-0.372808,35.93393,21-Oct-12
+134,Moi University,Kenya,0.511163,35.284366,1-Mar-15
+135,University of Liberia,Liberia,6.299137,-10.795073,18-Dec-08
+136,University of Rwanda-College of Education,Rwanda,-1.950514,30.121054,1-Apr-09
+137,Antananarivo University,Madagascar,-18.914032,47.551812,13-Nov-08
+138,University of Toamasina,Madagascar,-18.133783,49.3771,19-Sep-14
+139,Stellenbosch University,South Africa,-33.932808,18.864447,1-Jan-09
+140,University of Cape Town,South Africa,-33.957652,18.461199,1-Jul-10
+141,Rhodes University,South Africa,-33.313591,26.516314,20-Aug-08
+142,Durban University of Technology,South Africa,-29.853613,31.006113,20-Feb-14
+143,University of Johannesburg,South Africa,-26.178115,27.992441,4-Jul-14
+144,University of Lagos,Nigeria,6.519006,3.397181,1-May-09
+145,Nnamdi Azikiwe University,Nigeria,6.242917,7.118311,1-Mar-08
+146,University of Khartoum,Sudan,15.609365,32.541711,17-Dec-09
+147,University Mohammed V-Agdal,Morocco,33.987851,-6.858644,19-Oct-09
+148,University Hassan II-Casablanca,Morocco,33.575514,-7.622784,10-Oct-12
+149,University of Lome,Togo,6.177375,1.213,30-Oct-09
+150,University of Abomey-Calavi,Benin,6.415745,2.341324,21-Oct-09
+151,"Technical, Vocational Education and Training Institute of Ethiopia",Ethiopia,9.026714,38.823881,12-May-10
+152,Addis Ababa University,Ethiopia,9.033504,38.76369,26-Nov-13
+153,University of Zambia,Zambia,-15.38789,28.329733,1-Sep-10
+154,University of Burundi,Burundi,-3.378906,29.383828,6-Sep-12
+155,Agostinho Neto University,Angola,-8.931942,13.283606,6-Feb-15
+156,Makerere University,Uganda,0.329183,32.570988,19-Dec-14
+157,National University of Equatorial Guinea,Equatorial Guinea,3.746263,8.774906,NA
+158,University of Cabo Verde,Cape Verde,14.911596,-23.526079,NA
+159,University of Felix Houphouette Boigny,Ivory Coast,5.34705,-3.985292,NA
+160,University of Maryland,United States,38.986918,-76.942554,1-Mar-05
+161,San Francisco State University,United States,37.721897,-122.478209,15-Feb-06
+162,College of William & Mary,United States,37.271674,-76.713378,16-Apr-12
+163,China Institute,United States,40.708651,-74.0144,1-Sep-05
+164,University of Kansas,United States,38.954344,-95.255796,17-Mar-06
+165,University of Hawaii at Manoa,United States,21.296939,-157.817112,28-Jun-06
+166,University of Massachusetts at Boston,United States,42.314841,-71.036738,11-Nov-06
+167,University of Iowa,United States,41.662696,-91.5549,15-Mar-06
+168,Michigan State University,United States,42.701848,-84.482172,1-May-06
+169,Pace University,United States,40.71112,-74.004857,19-May-09
+170,The University of Oklahoma,United States,35.205894,-97.445714,23-Aug-06
+171,"Purdue University, West Lafayette",United States,40.423705,-86.921195,1-Oct-10
+172,University of Missouri,United States,38.940381,-92.327738,28-Jan-11
+173,North Carolina State University,United States,35.784663,-78.682095,23-Apr-07
+174,Bryant University,United States,41.921192,-71.537882,14-Sep-07
+175,"University of California, Los Angeles",United States,34.068921,-118.445181,1-Oct-10
+176,"University of California, Davis",United States,38.538232,-121.761712,21-Sep-12
+177,University of Illinois at Urbana-Champaign,United States,40.101952,-88.227161,11-Oct-12
+178,Portland State University,United States,45.511018,-122.683184,16-May-07
+179,University of Rhode Island,United States,41.486065,-71.530854,30-Jan-07
+180,Community College of Denver,United States,39.741455,-105.005153,25-Feb-07
+181,New Mexico State University,United States,32.278774,-106.747906,13-Mar-07
+182,University of Nebraska-Lincoln,United States,40.820197,-96.700476,30-Oct-07
+183,University of Pittsburgh,United States,40.444353,-79.960835,5-May-07
+184,Arizona State University,United States,33.453538,-112.073122,22-Oct-07
+185,University of Oregon,United States,44.04483,-123.072606,2-Nov-09
+186,University of Memphis,United States,35.118731,-89.93714,13-Aug-07
+187,Wayne State University,United States,42.359139,-83.066546,27-Jun-07
+188,"Rutgers, the State University of New Jersey",United States,40.498196,-74.446796,1-May-08
+189,University of Central Arkansas,United States,35.079282,-92.457442,18-Sep-08
+190,Valparaiso University,United States,41.463939,-87.043889,23-Jul-07
+191,Miami University,United States,39.510533,-84.730877,4-Aug-07
+192,Uiversity of Indianapolis,United States,39.709623,-86.13646,2-Aug-07
+193,University of Wisconsin-Platteville,United States,42.732371,-90.48726,17-Sep-07
+194,Texas A&M University,United States,30.618531,-96.336499,28-Apr-08
+195,Troy University,United States,31.80189,-85.957228,11-Oct-07
+196,University of Utah,United States,40.764937,-111.842102,19-Oct-10
+197,University of Arizona,United States,32.231885,-110.950109,1-Nov-07
+198,Xavier University of Louisiana,United States,29.963863,-90.107084,20-Oct-12
+199,Houston Independent School District,United States,29.727312,-95.352088,NA
+200,Broward County Public Schools,United States,26.114367,-80.139524,NA
+201,East Central Ohio Educational Service Center,United States,40.483548,-81.432834,NA
+202,Corolado State University,United States,40.573436,-105.086547,20-Mar-12
+203,Auburn University at Montgomery,United States,32.369746,-86.176658,2-Nov-12
+204,Old Dominion University,United States,36.885551,-76.306768,19-Apr-13
+205,Central Connecticut State University,United States,41.693255,-72.764167,20-May-13
+206,Texas Southern University,United States,29.721763,-95.360612,12-Apr-13
+207,The University of Texas at Dallas,United States,32.985762,-96.750099,5-Nov-07
+208,Webster University,United States,38.589288,-90.343767,11-Nov-07
+209,University of South Florida,United States,28.058703,-82.413854,6-Mar-08
+210,University of Minnesota,United States,44.97399,-93.227729,19-Sep-08
+211,Emory University,United States,33.792519,-84.323999,9-Mar-08
+212,The University of Akron,United States,41.076655,-81.511339,3-Nov-08
+213,University of Montana,United States,46.860067,-113.985208,1-Sep-09
+214,University of South Carolina,United States,33.996112,-81.027428,3-Jul-08
+215,Cleveland State University,United States,41.50255,-81.675337,28-Aug-08
+216,Kennesaw State University,United States,33.939713,-84.519657,17-Aug-09
+217,Pfeiffer University,United States,35.167478,-80.8491,6-Nov-09
+218,San Diego State University,United States,32.775722,-117.071889,30-Oct-08
+219,University of Toledo,United States,41.658031,-83.61407,10-Aug-09
+220,Alfred University,United States,42.255822,-77.786103,20-Jan-09
+221,Stony Brook University,United States,40.912376,-73.123389,19-May-10
+222,Goerge Mason University,United States,38.831554,-77.312089,16-Apr-09
+223,Presbyterian College,United States,34.465182,-81.877559,6-Nov-09
+224,University of Michigan,United States,42.278044,-83.738224,5-Nov-09
+225,Western Michigan University,United States,42.283734,-85.610251,23-Nov-09
+226,"University of Washington, Seattle Public Schools",United States,47.655335,-122.30352,26-Apr-10
+227,George Washington University,United States,38.899715,-77.048599,10-Apr-13
+228,University of Idaho,United States,46.728812,-117.012608,7-Feb-13
+229,University of Southern Maine,United States,43.662248,-70.275694,NA
+230,University of West Florida,United States,30.546934,-87.216022,19-May-10
+231,Prairie View A&M University,United States,29.712996,-95.39858,3-Jul-13
+232,"University at Albany, State University of New York",United States,42.684943,-73.82525,23-Sep-13
+233,Dickinson State University,United States,46.882323,-102.799572,7-Apr-11
+234,St. Cloud State University,United States,45.551186,-94.151514,30-Aug-13
+235,Augusta University,United States,33.475856,-82.022974,NA
+236,Miami Dade College,United States,25.77762,-80.190909,29-Apr-10
+237,Middle Tennessee University,United States,35.84861,-86.364881,21-Apr-10
+238,University of Tennessee,United States,35.954401,-83.929456,17-Apr-13
+239,Wesleyan College,United States,32.874577,-83.712477,11-Apr-13
+240,"State College of Optometry, State University of New York",United States,40.754422,-73.982227,27-Oct-10
+241,Chicago Public Schools,United States,41.856147,-87.658113,10-May-06
+242,State University of New York,United States,40.754295,-73.991135,10-Dec-10
+243,Columbia University,United States,40.807536,-73.962573,18-Apr-13
+244,"University at Buffalo, State University of New York",United States,43.000809,-78.78897,9-Apr-10
+245,University of Texas at San Antonio,United States,29.583045,-98.619656,10-Feb-10
+246,Binghamton University,United States,42.089355,-75.969705,6-Nov-09
+247,Stanford University,United States,37.427475,-122.169719,27-Sep-13
+248,West Kentucky University,United States,36.985354,-86.456138,19-May-10
+249,Kentucky University,United States,38.030651,-84.50397,6-Nov-10
+250,University of Delaware,United States,39.67795,-75.750611,19-Oct-10
+251,University of New Hampshire,United States,43.138948,-70.937025,NA
+252,Georgia State University,United States,33.753068,-84.385282,1-Sep-10
+253,University of Alaska Anchorage,United States,61.191042,-149.81956,8-Sep-09
+254,Northern State University,United States,45.451099,-98.484492,10-Apr-15
+255,Tufts University,United States,42.407484,-71.119023,6-Jun-14
+256,Kansas State University,United States,39.197444,-96.584725,12-Jun-14
+257,University of North Florida,United States,30.26612,-81.507231,3-Jul-14
+258,Alabama A&M University,United States,34.784633,-86.572031,5-Aug-14
+259,"California State University, Long Beach",United States,33.783823,-118.11409,24-Oct-14
+260,Temple University,United States,39.981193,-75.155351,31-Oct-14
+261,West Virginia University,United States,39.63614,-79.955936,5-Nov-14
+262,Southern Utah University,United States,37.676444,-113.071332,18-May-15
+263,New Jersey City University,United States,40.709662,-74.087656,1-Jun-15
+264,Clark County School District,United States,36.169941,-115.13983,NA
+265,Davis School Disrict,United States,40.9805,-111.887439,NA
+266,Savannah State University,United States,32.024521,-81.062637,NA
+267,"University of California, Santa Barbara",United States,34.413963,-119.848947,NA
+268,Northwest Nazarene University,United States,43.561243,-116.566626,NA
+269,University of Regina,Canada,50.417013,-104.58849,4-Nov-11
+270,British Columbia Institute of Technology,Canada,49.248456,-123.001213,7-Feb-06
+271,Coquitlam School District,Canada,49.251988,-122.847151,29-Apr-08
+272,University of Waterloo,Canada,43.472285,-80.544858,29-Apr-08
+273,Dawson College,Canada,45.489698,-73.587785,8-Oct-07
+274,Department of Education in New Brunswick,Canada,46.091199,-64.769342,29-Apr-08
+275,Edmonton Public Schools,Canada,53.554646,-113.495572,4-May-08
+276,Brock University,Canada,43.117573,-79.247692,5-May-10
+277,Carleton University,Canada,45.387581,-75.69602,19-Apr-12
+278,Saint Mary's University,Canada,44.630574,-63.582154,29-Apr-08
+279,Seneca College,Canada,43.795451,-79.349731,24-Nov-11
+280,University of Saskatchewan,Canada,52.1334,-106.631358,18-Jun-12
+281,Instituto Cultural Chino Huaxia,Mexico,19.373632,-99.160816,22-Nov-06
+282,University of New Leon,Mexico,25.726406,-100.311904,11-Mar-07
+283,Universidad Aut&#243;noma de Yucat&#225;n,Mexico,20.96965,-89.623128,25-Sep-07
+284,Universidad Nacional Aut&#243;noma de M&#233;xico,Mexico,19.31889,-99.184368,12-Nov-08
+285,Autonomous University of Chihuahua,Mexico,28.655157,-106.087727,5-Mar-08
+286,Universidad Cat&#243;lica de Santa Maria,Peru,-16.406179,-71.54763,19-Nov-08
+287,Piura University,Peru,-5.17653,-80.637889,17-Aug-09
+288,Catholic University of Peru,Peru,-12.069076,-77.078437,20-Mar-09
+289,Ricardo Palma University,Peru,-12.131619,-76.979438,11-Nov-10
+290,The city government of Medellin,Colombia,6.253079,-75.561912,30-Apr-10
+291,Universidad de Los Andes,Colombia,4.601485,-74.066446,2-Nov-07
+292,Jorge Tadeo Lozano University,Colombia,4.606834,-74.0678,7-May-13
+293,Universidad de La Habana,Cuba,23.136841,-82.381506,30-Nov-09
+294,Universidad Santo Tomas,Chile,-33.036577,-71.517225,28-Apr-08
+295,Catholic University of Chile,Chile,-33.441128,-70.640793,5-May-09
+296,Universidade de S&#227;o Paulo,Brazil,-23.561399,-46.730789,26-Nov-08
+297,FAAP Higher education center,Brazil,-23.545126,-46.663025,19-Jul-12
+298,Universidade Federal de Minas Gerais,Brazil,-19.869088,-43.966384,29-Nov-13
+299,University of Pernambuco,Brazil,-8.04406,-34.886117,NA
+300,Universidade Federal do Rio Grande do Sul,Brazil,-30.033841,-51.21857,25-Apr-12
+301,Universidade de Brasilia,Brazil,-15.765157,-47.869904,29-Mar-10
+302,Pontifical Catholic University of Rio de Janeiro,Brazil,-22.979612,-43.233355,1-Sep-11
+303,University of Campinas,Brazil,-22.818439,-47.064721,NA
+304,State University of Par&#225;,Brazil,-1.428205,-48.454647,17-Jul-14
+305,Federal University of Cear&#225;,Brazil,-3.741451,-38.53936,17-Jul-14
+306,Universidad de Buenos Aires,Argentina,-34.599888,-58.373069,27-May-09
+307,National University of La Plata,Argentina,-34.912882,-57.951122,1-Sep-10
+308,University of Costa Rica,Costa Rica,9.936995,-84.051029,7-Aug-09
+309,University of the West Indies,Jamaica,18.00599,-76.746894,13-Feb-09
+310,San Francisco University of Quito,Ecuador,-0.19689,-78.435744,27-Dec-10
+311,Bahamas University Sau,Bahamas,26.594188,-78.553424,17-Oct-12
+312,Universidad Mayor de San Sim&#227;n,Bolivia,-17.393373,-66.144964,3-Sep-11
+313,University of Guyana,Guyana,6.813249,-58.117278,24-Mar-13
+314,University of the West Indies,Trinidad and Tobage,10.641586,-61.399471,20-Oct-13
+315,"University of West Indies, Cave Hill Campus",Barbados,13.134564,-59.629788,7-Jul-14
+316,Universidad Bolivariana de Venezuela,Venezuela,10.487495,-66.885806,2-Sep-15
+317,Anton de Kom University of Suriname,Suriname,5.812859,-55.217253,16-Feb-17
+318,University of Geneva,Switzerland,46.199444,6.145116,10-Dec-10
+319,University of Basel,Switzerland,47.560253,7.5826,13-May-13
+320,SS Cyril and Methodius University,Macedonia,41.99942,21.443239,3-Apr-13
+321,University of Latvia,Latvia,56.95081,24.116313,26-Apr-11
+322,University of Zagreb,Croatia,45.81057,15.969802,27-Jul-11
+323,University of Tirana,Albania,41.309445,19.801978,22-May-13
+324,University College Cork,Ireland,51.89211,-8.493274,24-Oct-07
+325,University College Dublin,Ireland,53.305344,-6.220654,15-Feb-06
+326,University of Vienna,Austria,48.213185,16.36005,26-May-06
+327,University of Graz,Austria,47.077787,15.449913,8-Jun-10
+328,Belarusian State University,Belarus,53.893039,27.545557,5-Jul-06
+329,Minsk State Linguistic University,Belarus,53.907296,27.577719,19-Sep-11
+330,Belarusian National Technical University,Belarus,53.921022,27.593032,6-Dec-13
+331,University of Sofia,Bulgaria,42.693508,23.334793,1-Dec-05
+332,St. Cyril and St. Methodius University of Veliko Turnovo,Bulgaria,43.078432,25.649235,28-Mar-12
+333,"Belgium China Association, Belgium",Belgium,50.85988,4.379476,10-Mar-05
+334,"University of Liege, Belgium",Belgium,50.58308,5.559064,2-Jun-05
+335,"University College West Flanders, Belgium",Belgium,50.82186,3.250534,20-Feb-12
+336,"GROUP T, Belgium",Belgium,50.874854,4.707768,24-Apr-06
+337,Universit&#233; Libre de Bruexlles,Belgium,50.813207,4.382222,29-Jun-15
+338,Confucius Institute at VUB,Belgium,50.821658,4.394886,NA
+339,University of Iceland,Iceland,64.13962,-21.95189,19-Oct-07
+340,"Jagiellonian University, Poland",Poland,50.060962,19.934107,1-Dec-06
+341,"Opole University of Technology, Poland",Poland,50.654117,17.905043,8-Oct-08
+342,"Adam Mickiewicz University, Poland",Poland,52.408397,16.915402,14-Jun-08
+343,"University of Wroclaw, Poland",Poland,51.114005,17.034463,1-Sep-08
+344,University of Gda&#324;sk,Poland,54.396135,18.57432,21-Sep-15
+345,Copenhagen Business School,Denmark,55.681611,12.529679,20-Nov-07
+346,Royal Danish Academy of Music,Denmark,55.68221,12.552525,16-Jun-12
+347,Aalborg University,Denmark,57.014567,9.981853,3-Jul-09
+348,Freie Universitat Berlin,Germany,52.452526,13.289679,1-Jul-05
+349,Heinrich-Heine-Universitat Dasseldorf,Germany,51.192429,6.793681,2-Jun-06
+350,"Friedrich-Alexander-University Erlangen-N&#252;rnberg, N&#252;rnberg",Germany,49.59788,11.004551,31-Aug-05
+351,Goethe University Frankfurt,Germany,50.127068,8.667763,25-Apr-08
+352,Heidelberg University,Germany,9.41914,8.670249,16-Jun-06
+353,Universit&#228;t Hamburg,Germany,53.566564,9.98462,7-Jun-06
+354,Chinese Center Hannover,Germany,52.378841,9.722385,14-Sep-06
+355,Universit&#228;t Leipzig,Germany,51.338574,12.378461,14-Jun-06
+356,Stiftung Ex-Oriente Munich,Germany,48.136761,11.571689,17-Feb-09
+357,Bremen University of Applied Sciences,Germany,53.072635,8.793819,23-Oct-13
+358,University of Duisburg-Essen,Germany,51.427717,6.801008,18-May-07
+359,Erfurt University of Applied Sciences,Germany,50.984791,11.041495,7-Nov-11
+360,Albert-Ludwigs-Universit&#228;t Freiburg,Germany,47.993544,7.84595,1-Sep-08
+361,University of Trier,Germany,49.74576,6.68847,1-Jul-08
+362,University of Paderborn,Germany,51.70821,8.771984,11-Jun-14
+363,Goettingen University,Germany,51.540812,9.9374,22-Sep-13
+364,Fachhochschule Stralsund University of Applied Sciences,Germany,54.33893,13.074137,11-Nov-15
+365,Technische Hochschule Ingolstadt,Germany,48.766778,11.431934,6-Oct-16
+366,Far Eastern Federal University,Russia,43.117401,131.892542,21-Dec-06
+367,Russian State University for the Humanities,Russia,55.777602,37.597243,26-Dec-06
+368,Moscow State University,Russia,55.703935,37.52867,6-Sep-07
+369,St-Petersburg State University,Russia,59.941894,30.29892,10-Nov-06
+370,Irkutsk National University,Russia,52.276612,104.277729,12-Dec-06
+371,Novosibirsk State University of Technology,Russia,54.847746,83.094388,8-Apr-07
+372,Kazan Federal University,Russia,55.790447,49.121435,24-Apr-07
+373,Blagoveschensk State Pedagogical University,Russia,50.269271,127.507252,15-May-07
+374,The Kalmyk State University,Russia,46.308056,44.270564,22-Nov-07
+375,Tomsk State University,Russia,56.469492,84.947868,1-May-08
+376,Buryat State University,Russia,51.834035,107.579917,6-Jul-07
+377,Ural Federal University,Russia,56.8442,60.653326,28-Dec-07
+378,Moscow State Linguistic University,Russia,55.738755,37.594949,23-Mar-10
+379,Ryazan State University,Russia,54.629039,39.753255,23-Mar-10
+380,Nizhny Novgorod State Linguistic University,Russia,56.324429,44.028629,5-May-10
+381,Volgograd State Socio-Pedagogical University,Russia,48.714705,44.526513,22-Jun-10
+382,Amur State University of Humanities and Pedagogy,Russia,50.298522,127.510168,23-Oct-10
+383,University of Poitiers,France,46.585991,0.346048,31-Jul-05
+384,Paris Diderot University,France,48.829319,2.381794,16-Mar-07
+385,Chinese Cultural Center in Paris,France,48.861994,2.310545,29-Dec-05
+386,"Region of Brittany, City of Rennes",France,48.117266,-1.677793,8-Jun-06
+387,"University of La Rochelle, Government of La Rochelle City",France,46.152476,-1.153721,12-May-06
+388,Region of Alsace,France,48.583276,7.761486,23-Jan-07
+389,City of Clermont-Ferrand,France,45.777222,3.087025,11-Dec-07
+390,West Paris Nanterre la Defense University,France,48.903399,2.211274,6-Feb-08
+391,University of Toulouse,France,43.594376,1.450649,NA
+392,Artois University,France,50.283639,2.792248,28-Feb-08
+393,"Region of Pays de la Loire, City of Angers",France,47.47,-0.56,13-Apr-09
+394,University of Lorraine,France,48.696274,6.176466,16-May-11
+395,University of French Polynesia,France,-17.576387,-149.608695,15-Jan-13
+396,University of Montpellier 2,France,43.6312,3.861477,26-Apr-13
+397,University of Reunion Island,France,-20.902714,55.481468,5-May-10
+398,Neoma Business School,France,49.463076,1.063847,17-Oct-13
+399,University of Nice Sophia Antipolis,France,43.709948,7.289682,13-Dec-16
+400,University of Helsinki,Finland,60.172635,24.951042,1-Sep-07
+401,University of Groningen,Netherlands,53.241266,6.532617,10-Dec-10
+402,Leiden University,Netherlands,52.157148,4.485209,7-Jul-06
+403,Palack&#253; University,Czech Republic,49.595427,17.260015,6-Oct-06
+404,Lucian Blaga University of Sibiu,Romania,45.790623,24.145187,21-Aug-06
+405,Babe&#351;-Bolyai University,Romania,46.767795,23.591276,3-Oct-09
+406,Transilvania University of Brasov,Romania,45.645155,25.589118,29-Mar-11
+407,University of Bucharest,Romania,44.435445,26.101673,19-Mar-13
+408,University of Bergen,Norway,60.387859,5.321755,1-Jan-08
+409,University of Lisbon,Portugal,38.752504,-9.15851,31-Jan-07
+410,University of Minho,Portugal,41.559897,-8.396623,9-Dec-05
+411,Aveiro,Portugal,40.640506,-8.653754,21-Sep-14
+412,University of Coimbra,Portugal,40.208907,-8.424151,NA
+413,Lulea Tekniska Universitet the Municipality of Groningen,Sweden,65.617996,22.140179,4-May-12
+414,University of Belgrade,Serbia,44.818434,20.457568,30-May-06
+415,University of Novi Sad,Serbia,45.247289,19.854052,NA
+416,Slovak University of Technology,Slovakia,48.154703,17.117527,25-Feb-07
+417,Comenius University,Slovakia,48.141131,17.115559,2-Sep-14
+418,Luhansk National Pedagogical University,Ukraine,48.564836,39.316593,20-Oct-06
+419,South Ukranian National Pedagogical,Ukraine,46.480536,30.721488,28-Sep-11
+420,National Taras Shevchenko University of Kyiv,Ukraine,50.442087,30.510402,1-Oct-10
+421,Kharkiv State University,Ukraine,50.009325,36.22927,6-May-08
+422,Kiev State Linguistic University,Ukraine,50.427615,30.517108,6-Sep-13
+423,"Universidad Aut&#243;noma de Madrid, Casa Asia",Spain,40.415375,-3.711198,14-Nov-05
+424,University of Leon,Spain,42.61336,-5.559935,20-May-11
+425,University of Granada,Spain,37.183853,-3.600767,5-Jul-06
+426,University of Valencia,Spain,39.479325,-0.359386,25-May-07
+427,University of Las Palmas of Gran Canaria,Spain,28.099018,-15.420326,8-Nov-10
+428,University of Barcelona,Spain,41.502682,2.104322,3-Jun-08
+429,Athens University of Economics and Business,Greece,37.994081,23.732435,23-Jun-08
+430,E&#246;tv&#246;s Lor&#225;nd University,Hungary,47.49057,19.058545,21-Jun-06
+431,University of Szeged,Hungary,46.244813,20.147868,14-May-12
+432,University of Miskolc,Hungary,48.081286,20.764431,25-Apr-13
+433,University of Pecs,Hungary,46.074183,18.237722,27-Aug-14
+434,Sapienza University of Rome,Italy,41.903763,12.514438,4-Jul-05
+435,Oriental University of Napolipoli,Italy,40.84859,14.255103,19-Jul-07
+436,Universit&#233; Sainte-Anne,Italy,43.720966,10.402786,11-Dec-07
+437,Universita degli Studi di Torino,Italy,45.069428,7.688901,11-Mar-08
+438,University of Bologna,Italy,44.496232,11.354157,18-Jul-08
+439,University of Florence,Italy,43.777643,11.259765,7-Jun-13
+440,University of Venice,Italy,45.434532,12.326197,22-Sep-08
+441,University of Padova,Italy,45.406766,11.877446,8-Oct-08
+442,University of Milano,Italy,45.460144,9.194584,23-Jul-09
+443,Universit&#224; Cattolica del Sacro Cuore UCSC,Italy,45.463287,9.174035,20-Jul-09
+444,University of Macerata,Italy,43.299103,13.449842,11-Mar-11
+445,University of Liverpool,United Kingdom,53.405936,-2.965572,5-Dec-08
+446,University of Edinburgh,United Kingdom,55.944516,-3.189241,15-Dec-05
+447,"SOAS, London University",United Kingdom,51.52235,-0.129259,14-Jun-05
+448,UCL Institute of Education,United Kingdom,51.522944,-0.128,18-Oct-06
+449,University of Aberdeen,United Kingdom,57.16476,-2.101526,31-Oct-12
+450,Edge Hill University,United Kingdom,53.559683,-2.87385,15-Nov-12
+451,De Montfort University,United Kingdom,52.629226,-1.139687,4-Feb-14
+452,University of Leeds,United Kingdom,53.806682,-1.555033,10-Aug-12
+453,"Goldsmiths College, University of London",United Kingdom,51.474271,-0.035408,28-Dec-11
+454,London School of Economics and Political Science,United Kingdom,51.514408,-0.117377,6-Apr-06
+455,Lancaster University,United Kingdom,54.010394,-2.787729,23-Mar-11
+456,London South Bank University,United Kingdom,51.498224,-0.102086,24-May-07
+457,University of Manchester,United Kingdom,53.46685,-2.233884,15-Jul-05
+458,University of Nottingham,United Kingdom,52.938636,-1.195158,12-Sep-07
+459,University of Sheffield,United Kingdom,53.380941,-1.487947,12-Apr-06
+460,Cardiff University,United Kingdom,51.486627,-3.178864,2-Apr-07
+461,University of Central Lancashire,United Kingdom,53.761924,-2.708439,28-Apr-08
+462,University of Wales Trinity Saint David,United Kingdom,52.113607,-4.07654,12-Mar-07
+463,University of Glasgow,United Kingdom,55.872121,-4.288201,7-Apr-11
+464,University of Southampton,United Kingdom,50.936284,-1.39803,25-May-11
+465,University of Ulster,United Kingdom,54.60381,-5.929358,14-Jul-11
+466,"SCILT, Scotland's National Centre for Language",United Kingdom,55.863838,-4.241577,22-Oct-10
+467,Heriot Watt University,United Kingdom,55.90966,-3.320349,5-Nov-13
+468,Newcastle University,United Kingdom,54.979187,-1.614661,17-Feb-12
+469,Bangor University,United Kingdom,53.22952,-4.129987,17-Apr-12
+470,University of Hull,United Kingdom,53.771455,-0.367387,NA
+471,Queen Mary University of London,United Kingdom,51.524067,-0.040374,22-May-15
+472,Coventry University,United Kingdom,52.407175,-1.503746,NA
+473,Oxford Brookes University,United Kingdom,51.755011,-1.224225,19-Sep-15
+474,University of Malta,Malta,35.898376,14.515488,22-Feb-09
+475,Free International University of Moldova,Moldova,47.022978,28.83688,10-Apr-09
+476,University of Ljubljana,Slovenia,46.049194,14.504155,27-Aug-09
+477,Tallinn University,Estonia,59.438742,24.771645,16-Feb-10
+478,Vilnius University,Lithuania,54.682576,25.287647,8-Feb-10
+479,University of Montenegro,The Republic of Montenegro,42.443012,19.240594,2-Sep-14
+480,University of Cyprus,Cyprus,35.160001,33.377017,14-Nov-13
+481,University of the Republic of San Marino,San Marino,43.937743,12.445046,28-Oct-14
+482,University of Sarajevo,Bosnia and Herzegovina,43.856883,18.418885,7-Dec-14
+483,University of Western Australia,Australia,-31.981179,115.81991,26-Jun-06
+484,University of Melbourne,Australia,-37.796369,144.961174,25-Jun-07
+485,University of Adelaide,Australia,-34.920603,138.606228,14-Mar-07
+486,University of Queensland,Australia,-27.495431,153.01203,19-Nov-10
+487,Queensland University of Technology,Australia,-27.477356,153.028423,15-Jun-09
+488,University of Sydney,Australia,-33.888584,151.187347,17-Jun-08
+489,"University of New South Wales,",Australia,-33.917347,151.231268,30-Jul-09
+490,Royal Melbourne Institute of Technology,Australia,-37.808943,144.965117,20-Jun-10
+491,University of Newcastle,Australia,-32.892772,151.704178,11-May-11
+492,Charles Darwin University,Australia,-12.371785,130.86892,31-Jul-12
+493,"Department of Education and Communities, State of New South Wales",Australia,-33.863557,151.21071,28-Nov-11
+494,Victoria University,Australia,-37.814878,144.954696,26-Nov-15
+495,Griffith University,Australia,-27.553836,153.053678,9-Apr-11
+496,La Trobe University,Australia,-37.720727,145.048395,16-Nov-11
+497,University of Auckland,New Zealand,-36.852338,174.769107,22-Mar-05
+498,University of Canterbury,New Zealand,-43.523538,172.583923,27-May-10
+499,Victoria University of Wellington,New Zealand,-41.290402,174.768662,19-Jun-10
+500,University of the South Pacific,Fiji,-18.149953,178.444023,6-Sep-12

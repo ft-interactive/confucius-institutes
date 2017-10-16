@@ -82,8 +82,9 @@
     "start": "webpack-dev-server --watch"
   },
   "dependencies": {
+    "bertha-client": "^4.0.1",
     "d3": "^4.10.2",
     "d3-geo-projection": "^2.3.1",
-    "bertha-client": "^4.0.1"
+    "d3-tip": "^0.7.1"
   }
 }

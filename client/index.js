@@ -1,6 +1,8 @@
 import './styles.scss';
 import * as d3 from 'd3';
-import { geoNaturalEarth2 } from 'd3-geo-projection'
+import { geoNaturalEarth2 } from 'd3-geo-projection';
+import d3Tip from 'd3-tip';
+d3.tip = d3Tip;
 
 
 ////////// IMPORT DATA //////////
@@ -27,6 +29,7 @@ let histHeight = height/5;
 
 let parseDate = d3.timeParse("%d-%b-%y");
 let formatDateIntoYear = d3.timeFormat("%Y");
+let formatDateIntoMonthYear = d3.timeFormat("%B, %Y");
 
 const startDate = new Date("2004-11-01"),
     endDate = new Date("2017-05-31");
@@ -66,6 +69,23 @@ let svg = d3.select(".locations-map")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom);
 
+let tip = d3.tip()
+    .attr('class', 'd3-tip')
+    .offset([-10, 0])
+    .html(function(d) {
+      let date = "NA";
+      if (d.date != null) {
+        date = formatDateIntoMonthYear(d.date);
+      }
+      return `
+      <span class="details">
+        ${d.location}, ${d.country}<br/>
+        Established: ${date}
+      </span>
+      `;
+    });
+
+svg.call(tip);
 
 ////////// HISTOGRAM //////////
 
@@ -180,12 +200,28 @@ function drawLocations(data) {
         }
       })
       .style("opacity", 0.5)
+      .on("mouseover", function(d) {
+        tip.show(d);
+
+        d3.select(this)
+        .style("opacity", 0.9)
+        .style("stroke","black")
+        .style("stroke-width",1.5);
+      })
+      .on("mouseout", function(d) {
+        tip.hide(d);
+
+        d3.select(this)
+        .style("opacity", 0.6)
+        .style("stroke","white")
+        .style("stroke-width",0.5);
+      })
       .attr("r", 3)
         .transition()
         .duration(300)
         .attr("r", 5)
           .transition()
-          .attr("r", 3);
+          .attr("r", 3)
 
   // if filtered dataset has less circles than already existing, remove excess
   locations.exit()
