@@ -43,7 +43,7 @@ export default (environment = 'development') => ({ // eslint-disable-line
   // if array of authors, url is optional
   byline: [
     { name: 'Jane Pong', url: 'https://www.ft.com/jane-pong' },
-    { name: 'XXX', url: 'https://www.ft.com/stream/3b7aef75-5d4f-3873-b156-8644e8eab910' },
+    { name: 'Emily Feng', url: 'https://www.ft.com/stream/3b7aef75-5d4f-3873-b156-8644e8eab910' },
   ],
 
   // Appears in the HTML <title>
