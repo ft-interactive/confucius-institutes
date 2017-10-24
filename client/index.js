@@ -162,7 +162,7 @@ map.append("g")
       .append("path")
       .attr("d", path)
       .style("fill", "#d0d7cc")
-      .style("opacity", 0.7)
+      .style("fill-opacity", 0.7)
       .style("stroke", "white")
 
 
@@ -199,12 +199,14 @@ function drawLocations(data) {
           return colours(d3.timeYear(d.date));
         }
       })
-      .style("opacity", 0.5)
+      .style("fill-opacity", 0.5)
+      .style("stroke-opacity", 0.5)
       .on("mouseover", function(d) {
         tip.show(d);
 
         d3.select(this)
-        .style("opacity", 0.9)
+        .style("fill-opacity", 0.9)
+        .style("stroke-opacity", 0.9)
         .style("stroke","black")
         .style("stroke-width",1.5);
       })
@@ -212,7 +214,8 @@ function drawLocations(data) {
         tip.hide(d);
 
         d3.select(this)
-        .style("opacity", 0.6)
+        .style("fill-opacity", 0.6)
+        .style("stroke-opacity", 0.6)
         .style("stroke","white")
         .style("stroke-width",0.5);
       })
