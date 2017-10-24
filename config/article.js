@@ -11,10 +11,10 @@ export default (environment = 'development') => ({ // eslint-disable-line
   //       new Date('2016-05-17T17:11:22Z')
   publishedDate: new Date('2017-10-26T17:11:22Z'),
 
-  headline: 'Confucius Institutes around the world XXX',
+  headline: 'Confucius Institutes: cultural diplomacy or party propaganda?',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'Since the establishment of the first Confucius Institute in 2004, the number of Institutes around the world has grown to 500 in 2017 spreading over 126 countries.',
+  summary: 'China’s foothold in foreign universities prompts alarm at erosion of academic freedom',
 
   topic: {
     name: 'China Politics & Policy',
@@ -27,8 +27,8 @@ export default (environment = 'development') => ({ // eslint-disable-line
   // },
 
   mainImage: {
-    title: '',
-    description: 'Confucius Institutes, funded by Beijing to promote and teach Chinese language and culture, now established in over 120 countries',
+    title: 'Confucius Institutes: cultural diplomacy or party propaganda?',
+    description: 'China’s foothold in foreign universities prompts alarm at erosion of academic freedom',
     credit: '',
 
     // You can provide a UUID to an image and it was populate everything else
@@ -72,7 +72,7 @@ export default (environment = 'development') => ({ // eslint-disable-line
   // twitterCreator: '@author's_account', // shows up in summary_large_image cards
 
   // TWEET BUTTON CUSTOM TEXT
-  tweetText: 'Confucius Institutes, funded by Beijing to promote and teach Chinese language and culture, now established in over 120 countries',
+  tweetText: 'Confucius Institutes: cultural diplomacy or party propaganda?',
   //
   // Twitter lists these as suggested accounts to follow after a user tweets (do not include @)
   // twitterRelatedAccounts: ['authors_account_here', 'ftdata'],
