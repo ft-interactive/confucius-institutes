@@ -353,7 +353,7 @@ function update(h) {
 function step() {
   update(x.invert(currentValue));
   currentValue = currentValue + (targetValue/151); // each step is a month on time scale
-  if (currentValue > targetValue) {
+  if (currentValue > targetValue+10) {
     // reached end of slider, reset
     moving = false;
     currentValue = 0;
