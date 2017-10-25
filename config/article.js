@@ -9,12 +9,12 @@ export default (environment = 'development') => ({ // eslint-disable-line
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
-  publishedDate: new Date('2017-10-26T17:11:22Z'),
+  publishedDate: new Date('2017-10-26T05:00:00Z'),
 
   headline: 'Confucius Institutes: cultural diplomacy or party propaganda?',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'China’s foothold in foreign universities prompts alarm at erosion of academic freedom',
+  summary: 'China’s foothold in foreign universities is prompting fears that academic freedoms are under threat',
 
   topic: {
     name: 'China Politics & Policy',
@@ -28,7 +28,7 @@ export default (environment = 'development') => ({ // eslint-disable-line
 
   mainImage: {
     title: 'Confucius Institutes: cultural diplomacy or party propaganda?',
-    description: 'China’s foothold in foreign universities prompts alarm at erosion of academic freedom',
+    description: 'China’s foothold in foreign universities is prompting fears that academic freedoms are under threat',
     credit: '',
 
     // You can provide a UUID to an image and it was populate everything else
