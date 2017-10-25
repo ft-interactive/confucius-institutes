@@ -11,10 +11,10 @@ export default (environment = 'development') => ({ // eslint-disable-line
   //       new Date('2016-05-17T17:11:22Z')
   publishedDate: new Date('2017-10-26T05:00:00Z'),
 
-  headline: 'Confucius Institutes: cultural diplomacy or party propaganda?',
+  headline: 'Confucius Institutes: cultural asset or campus threat?',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'China’s foothold in foreign universities is prompting fears that academic freedoms are under threat',
+  summary: 'China’s foothold in overseas universities is prompting fears over academic independence',
 
   topic: {
     name: 'China Politics & Policy',
@@ -27,8 +27,8 @@ export default (environment = 'development') => ({ // eslint-disable-line
   // },
 
   mainImage: {
-    title: 'Confucius Institutes: cultural diplomacy or party propaganda?',
-    description: 'China’s foothold in foreign universities is prompting fears that academic freedoms are under threat',
+    title: 'Confucius Institutes: cultural asset or campus threat?',
+    description: 'China’s foothold in overseas universities is prompting fears over academic independence',
     credit: '',
 
     // You can provide a UUID to an image and it was populate everything else
@@ -72,7 +72,7 @@ export default (environment = 'development') => ({ // eslint-disable-line
   // twitterCreator: '@author's_account', // shows up in summary_large_image cards
 
   // TWEET BUTTON CUSTOM TEXT
-  tweetText: 'Confucius Institutes: cultural diplomacy or party propaganda?',
+  tweetText: 'Confucius Institutes: cultural asset or campus threat?',
   //
   // Twitter lists these as suggested accounts to follow after a user tweets (do not include @)
   // twitterRelatedAccounts: ['authors_account_here', 'ftdata'],
